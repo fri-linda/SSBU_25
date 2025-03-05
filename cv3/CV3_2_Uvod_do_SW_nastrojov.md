@@ -2,7 +2,7 @@
 
 ## Nástroje v bioinformatike
 
-<img src="data/workflow.png" alt="Workflow diagram" width="70%"/>
+<img src="data/workflow.png" alt="Workflow diagram" width="60%"/>
 
 ---
 

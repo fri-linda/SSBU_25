@@ -31,11 +31,11 @@ git checkout -b [názov_vetvy]
 1. Prejdite do vášho forku na GitHube.
 2. Kliknite na **Master** → **View all branches** → **New Branch**.
 
-<img src="data/git1.png" width="70%"/>
+<img src="data/git1.png" width="45%"/>
 
 3. Pomenujte vetvu a vytvorte ju.
 
-<img src="data/git2.png" width="70%"/>
+<img src="data/git2.png" width="50%"/>
 
 ---
 
