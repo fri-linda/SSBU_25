@@ -1,14 +1,12 @@
-# SSBU CV1: Úvod do softvérových nástrojov pre analýzu biomedicínskych dát
+# SSBU CV3: Práca s databázami
 
-## Práca s databázami
-
-#### National Center for Biotechnology Information 
+### National Center for Biotechnology Information
 - Súbor biomedicínskych a biotechnologických databáz
 - Voľne prístupné - www.ncbi.nlm.nih.gov/
 - GenBank - DNA databáza
 - PubMed - publikačná databáza
 
-##### GenBank
+#### GenBank
 - Prístup buď cez Google Search: genbank, alebo priamo - www.ncbi.nlm.nih.gov/genbank/
 
 <img src="data/genbank1.png" alt="Workflow diagram" width="70%"/>
@@ -87,8 +85,8 @@
  - CDD (Conserved Domain Database) - anotácie proteínov, popis funkcie génu (zobrazenie podrobnejších informácií - obrázok, vlastnosti, taxonómia, ..)
 
   <img src="data/genbank17.png" alt="Workflow diagram" width="80%"/>
-             
-##### PubMed
+
+#### PubMed
 - Prístup buď cez Google Search: pubmed, alebo priamo - www.pubmed.ncbi.nlm.nih.gov/
 
  <img src="data/pubmed1.png" alt="Workflow diagram" width="80%"/>
