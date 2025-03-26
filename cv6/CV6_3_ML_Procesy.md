@@ -218,7 +218,7 @@ náhodný. Replikácie potvrdzujú alebo vyvracajú zistenia tým, že testujú 
 
 - **Verziovanie kódu a dát**: Použitie nástrojov ako Git pre kód a DVC (Data Version Control) pre dáta pomáha zachovať
 históriu zmen a uľahčuje beh experimentov s rôznymi konfiguráciami, podmnožinami údajov a pod..
-
+ 
 - **Dokumentácia**: Podrobná dokumentácia experimentov, vrátane predpokladov, metodológie a **interpretácie výsledkov**,
 je nevyhnutná pre reprodukovateľnosť, a odovzdávanie znalostí.
 
