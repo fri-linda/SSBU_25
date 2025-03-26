@@ -25,8 +25,7 @@ class DatasetRefactored:
         """
         Cleans the data by removing duplicates and handling missing values.
         """
-        df = pd.DataFrame(self.data, columns=self.feature_names)
-        df['target'] = self.target
+        df = self.to_dataframe()
         df.drop_duplicates(inplace=True)
         df.dropna(inplace=True)
         self.target = df['target'].values

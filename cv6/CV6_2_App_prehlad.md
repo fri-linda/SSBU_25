@@ -42,13 +42,11 @@ Adresár **machine_learning** obsahuje hlavný skript `main.py`, ktorý spúšť
 
 ### Class Diagram
 
-<img src="data/app_class_diagram.png"  width="100%"/>
-
 ```plantuml
 @startuml
 class BasePlotter {
-    #__generic_plot(plot_func: Callable, *args, **kwargs)
-    #__apply_plot_labels(general_kwargs: dict)
+    +__generic_plot(plot_func: Callable, *args, **kwargs)
+    +__apply_plot_labels(general_kwargs: dict)
 }
 
 class DatasetPlotter {
@@ -77,6 +75,7 @@ class Logger #wheat {
 
 class DatasetRefactored {
     +__init__()
+    +__load_and_clean_data()
     +to_dataframe() : pd.DataFrame
     +split_data(test_size: float, stratify: bool, random_state: int) : Tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]
     +scale_data(X_train: np.ndarray, X_test: np.ndarray, scale_type: str) : Tuple[np.ndarray, np.ndarray]
@@ -96,6 +95,7 @@ class ModelOptimizer {
 class Experiment {
     +__init__(models: dict, models_params: dict, n_replications: int, logger: Logger)
     +run(X: np.ndarray, y: np.ndarray) : pd.DataFrame
+    -__initialize_csv_file()
     -__run_single_replication(replication: int, X: np.ndarray, y: np.ndarray)
     -__balance_dataset(X: np.ndarray, y: np.ndarray) : Tuple[np.ndarray, np.ndarray]
     -__train_and_evaluate_model(model_name: str, X_resampled: np.ndarray, y_resampled: np.ndarray, replication: int)
@@ -116,8 +116,6 @@ DatasetPlotter --|> BasePlotter
 ---
 
 ### Call Sequence Diagram
-
-<img src="data/app_sequence_diagram.png"  width="70%"/>
 
 ```plantuml
 @startuml
@@ -155,8 +153,6 @@ Main--> User: Read and Interpret plots
 Do adresára **outputs** sa ukladajú:
 - Logy aplikácie (napr. `application.log`).
 - Výsledky experimentov (napr. `model_accuracies.csv`).
-
-Do adresára **results** sa ukladajú:
 - Vizualizácie (napr. grafy hustoty, matice zámien, grafy pre metriky).
 
 ---
