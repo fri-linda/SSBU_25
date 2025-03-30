@@ -19,7 +19,7 @@ print the statistics
 
 **Úloha 2:** Experimentovanie so škálovaním
 1. Upravte triedu `DataScaler`, aby obsahovala možnosť robustného škálovania pomocou `RobustScaler` z `sklearn`.
-2. Škálujte dataset pomocou novej metódy škálovania a porovnajte ho s existujúcimi metódami.
+2. Škálujte dataset pomocou novej metódy škálovania a porovnajte ho s existujúcimi metódami. --(pridať ho do scalers)
 
 **Úloha 3:** Pridanie metódy na zhrnutie vlastností
 1. Pridajte metódu do triedy `Dataset` na poskytnutie zhrnutia každej vlastnosti, vrátane počtu unikátnych hodnôt, najčastejšej hodnoty a jej frekvencie.
