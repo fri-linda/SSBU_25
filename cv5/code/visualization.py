@@ -1,4 +1,4 @@
-from data_handling_done import Dataset
+from data_handling import Dataset
 
 if __name__ == "__main__":
     dataset_std = Dataset()
@@ -9,6 +9,7 @@ if __name__ == "__main__":
     X_train_n, X_test_n, y_train_n, _ = dataset_std.split_data()
 
     # standardization
+
     X_train_standard, _ = dataset_std.scale_data(X_train_s, X_test_s, scale_type='standard')
     dataset_std.plot_all_features_before_after_scaling(X_train_s, X_train_standard, scale_type='Standardization')
     dataset_std.plot_feature_before_after_scaling(X_train_s, X_train_standard, feature_name='mean area')
