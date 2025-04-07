@@ -1,6 +1,5 @@
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, precision_score
 from sklearn.utils.validation import check_X_y, check_array
-
 
 class ModelTrainer:
     """A class for training and evaluating machine learning models."""
@@ -50,4 +49,5 @@ class ModelTrainer:
         accuracy = accuracy_score(y_test, predictions)
         f1 = f1_score(y_test, predictions)
         roc_auc = roc_auc_score(y_test, prob_predictions)
-        return accuracy, f1, roc_auc, predictions
+        precision = precision_score(y_test, predictions)
+        return accuracy, f1, roc_auc, precision, predictions

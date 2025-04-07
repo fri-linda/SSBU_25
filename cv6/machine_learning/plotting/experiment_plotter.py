@@ -26,7 +26,8 @@ class ExperimentPlotter(BasePlotter):
                 title=f'Density Plot of {metric.capitalize()}',
                 xlabel=metric.capitalize(),
                 ylabel='Density',
-                figsize=(10, 6)
+                figsize=(10, 6),
+                save_name=f'density_{metric}'  # ULOŽENIE GRAFU
             )
 
     def plot_evaluation_metric_over_replications(self, all_metric_results, title, metric_name):
@@ -39,12 +40,12 @@ class ExperimentPlotter(BasePlotter):
         - metric_name: str, name of the metric to display on the y-axis.
         """
         def plot_func():
-            colors = ['green', 'orange', 'blue']
+            colors = ['green', 'orange', 'blue', 'purple', 'red']
             for i, (model_name, values) in enumerate(all_metric_results.items()):
                 plt.plot(values, label=f"{model_name} per replication", alpha=0.5, color=colors[i % len(colors)])
-                avg_accuracy = sum(values) / len(values)
-                plt.axhline(y=avg_accuracy, linestyle='--', color=colors[i % len(colors)], 
-                            label=f"{model_name} average accuracy: {avg_accuracy:.2f}")
+                avg_value = sum(values) / len(values)
+                plt.axhline(y=avg_value, linestyle='--', color=colors[i % len(colors)],
+                            label=f"{model_name} average {metric_name.lower()}: {avg_value:.2f}")
             plt.legend()
 
         self._BasePlotter__generic_plot(
@@ -52,7 +53,8 @@ class ExperimentPlotter(BasePlotter):
             title=title,
             xlabel='Replication',
             ylabel=metric_name,
-            figsize=(10, 5)
+            figsize=(10, 5),
+            save_name=f'{metric_name.lower()}_over_replications'  # ULOŽENIE GRAFU
         )
 
     def plot_confusion_matrices(self, confusion_matrices):
@@ -73,7 +75,8 @@ class ExperimentPlotter(BasePlotter):
                 title=f'Average Confusion Matrix: {model_name}',
                 xlabel='Predicted label',
                 ylabel='True label',
-                figsize=(6, 5)
+                figsize=(6, 5),
+                save_name=f'confusion_matrix_{model_name.replace(" ", "_").lower()}'  # ULOŽENIE GRAFU
             )
 
     def print_best_parameters(self, results):
