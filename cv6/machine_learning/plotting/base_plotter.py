@@ -1,5 +1,6 @@
 from matplotlib import pyplot as plt
 from typing import Callable
+import os
 
 
 class BasePlotter:
@@ -13,11 +14,21 @@ class BasePlotter:
         - plot_func: Callable, the plotting function to use.
         - args: Positional arguments for the plotting function.
         - kwargs: Keyword arguments for the plotting function.
+            Optional:
+            - save_name: str, if provided, saves the figure with this filename (inside outputs/ folder)
         """
-        general_kwargs = {key: kwargs.pop(key, None) for key in ['title', 'xlabel', 'ylabel', 'xticks_rotation', 'yticks', 'yticklabels', 'xticks']}
+        general_kwargs = {key: kwargs.pop(key, None) for key in
+                          ['title', 'xlabel', 'ylabel', 'xticks_rotation', 'yticks', 'yticklabels', 'xticks']}
+        save_name = kwargs.pop('save_name', None)  # NEW
+
         plt.figure(figsize=kwargs.pop('figsize', (10, 6)))
         plot_func(*args, **kwargs)
         self.__apply_plot_labels(general_kwargs)
+
+        if save_name:
+            os.makedirs("outputs", exist_ok=True)
+            plt.savefig(os.path.join("outputs", f"{save_name}.png"))  # ULOŽÍME GRAF
+
         plt.tight_layout()
         plt.show()
 

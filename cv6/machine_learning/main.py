@@ -4,6 +4,7 @@ import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
 
 from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
 from data.data_handling_refactored import DatasetRefactored
 from experiment.experiment import Experiment
 from plotting.experiment_plotter import ExperimentPlotter
@@ -19,10 +20,17 @@ def initialize_models_and_params():
     - param_grids: dict, dictionary of hyperparameter grids.
     """
     models = {
-        "Logistic Regression": LogisticRegression(solver='liblinear')
+        "Logistic Regression": LogisticRegression(solver='liblinear'),
+        "Random Forest": RandomForestClassifier()
     }
     param_grids = {
-        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]}
+        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]},
+        "Random Forest": {
+            "n_estimators": [100, 200],
+            "max_depth": [3, 5, None],
+            "min_samples_split": [2, 5],
+            "max_features": ['sqrt', 'log2']
+        }
     }
     return models, param_grids
 
@@ -42,7 +50,7 @@ def run_experiment(dataset, models, param_grids, logger):
     - results: DataFrame, the results of the experiment.
     """
     logger.info("Starting the experiment...")
-    experiment = Experiment(models, param_grids, logger=logger)
+    experiment = Experiment(models, param_grids, n_replications=20, logger=logger)
     results = experiment.run(dataset.data, dataset.target)
     logger.info("Experiment completed successfully.")
     return experiment, results
