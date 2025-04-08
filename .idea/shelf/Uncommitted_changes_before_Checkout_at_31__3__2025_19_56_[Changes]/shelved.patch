@@ -1,0 +1,63 @@
+Index: cv6/machine_learning/outputs/model_accuracies.csv
+===================================================================
+diff --git a/cv6/machine_learning/outputs/model_accuracies.csv b/cv6/machine_learning/outputs/model_accuracies.csv
+--- a/cv6/machine_learning/outputs/model_accuracies.csv	(revision c1fc2e111075191be44e6bd19c93d6b1a644cbeb)
++++ b/cv6/machine_learning/outputs/model_accuracies.csv	(date 1743178577506)
+@@ -1,0 +1,21 @@
++Model,Replication,Accuracy,F1 Score,ROC AUC,Best Parameters
++Logistic Regression,1,0.9825,0.9839,0.9987,"{'C': 10, 'max_iter': 10000}"
++Random Forest,1,0.9650,0.9640,0.9960,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}"
++Logistic Regression,2,0.9685,0.9686,0.9925,"{'C': 10, 'max_iter': 10000}"
++Random Forest,2,0.9510,0.9500,0.9847,"{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
++Logistic Regression,3,0.9615,0.9600,0.9954,"{'C': 10, 'max_iter': 10000}"
++Random Forest,3,0.9825,0.9839,0.9929,"{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}"
++Logistic Regression,4,0.9825,0.9818,0.9947,"{'C': 10, 'max_iter': 10000}"
++Random Forest,4,0.9720,0.9732,0.9967,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
++Logistic Regression,5,0.9720,0.9722,0.9951,"{'C': 10, 'max_iter': 10000}"
++Random Forest,5,0.9510,0.9493,0.9884,"{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
++Logistic Regression,6,0.9825,0.9832,0.9983,"{'C': 10, 'max_iter': 10000}"
++Random Forest,6,0.9650,0.9653,0.9956,"{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}"
++Logistic Regression,7,0.9860,0.9857,0.9963,"{'C': 10, 'max_iter': 10000}"
++Random Forest,7,0.9650,0.9648,0.9974,"{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}"
++Logistic Regression,8,0.9825,0.9818,0.9975,"{'C': 10, 'max_iter': 10000}"
++Random Forest,8,0.9825,0.9814,0.9970,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}"
++Logistic Regression,9,0.9650,0.9645,0.9959,"{'C': 10, 'max_iter': 10000}"
++Random Forest,9,0.9510,0.9507,0.9900,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
++Logistic Regression,10,0.9825,0.9828,0.9945,"{'C': 10, 'max_iter': 10000}"
++Random Forest,10,0.9580,0.9600,0.9945,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}"
+Index: cv6/machine_learning/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import warnings\r\n\r\n# Suppress specific FutureWarnings from scikit-learn\r\nwarnings.filterwarnings(\"ignore\", category=FutureWarning)\r\n\r\nfrom sklearn.linear_model import LogisticRegression\r\nfrom data.data_handling_refactored import DatasetRefactored\r\nfrom experiment.experiment import Experiment\r\nfrom plotting.experiment_plotter import ExperimentPlotter\r\nfrom utils.logger import Logger\r\n\r\n\r\ndef initialize_models_and_params():\r\n    \"\"\"\r\n    Initializes models and their hyperparameter grids.\r\n\r\n    Returns:\r\n    - models: dict, dictionary of model instances.\r\n    - param_grids: dict, dictionary of hyperparameter grids.\r\n    \"\"\"\r\n    models = {\r\n        \"Logistic Regression\": LogisticRegression(solver='liblinear')\r\n    }\r\n    param_grids = {\r\n        \"Logistic Regression\": {\"C\": [0.1, 1, 10], \"max_iter\": [10000]}\r\n    }\r\n    return models, param_grids\r\n\r\n\r\ndef run_experiment(dataset, models, param_grids, logger):\r\n    \"\"\"\r\n    Runs the experiment with the given dataset, models, and hyperparameter grids.\r\n\r\n    Parameters:\r\n    - dataset: Dataset instance, the dataset to use.\r\n    - models: dict, dictionary of model instances.\r\n    - param_grids: dict, dictionary of hyperparameter grids.\r\n    - logger: Logger instance, for logging messages.\r\n\r\n    Returns:\r\n    - experiment: Experiment instance, the experiment object.\r\n    - results: DataFrame, the results of the experiment.\r\n    \"\"\"\r\n    logger.info(\"Starting the experiment...\")\r\n    experiment = Experiment(models, param_grids, logger=logger)\r\n    results = experiment.run(dataset.data, dataset.target)\r\n    logger.info(\"Experiment completed successfully.\")\r\n    return experiment, results\r\n\r\n\r\ndef plot_results(experiment, results, logger):\r\n    \"\"\"\r\n    Plots the results of the experiment.\r\n\r\n    Parameters:\r\n    - experiment: Experiment instance, the experiment object.\r\n    - results: DataFrame, the results of the experiment.\r\n    - logger: Logger instance, for logging messages.\r\n    \"\"\"\r\n    logger.info(\"Generating plots for the experiment results...\")\r\n    plotter = ExperimentPlotter()\r\n    plotter.plot_metric_density(results)\r\n    plotter.plot_evaluation_metric_over_replications(\r\n        experiment.results.groupby('model')['accuracy'].apply(list).to_dict(),\r\n        'Accuracy per Replication and Average Accuracy', 'Accuracy')\r\n    plotter.plot_confusion_matrices(experiment.mean_conf_matrices)\r\n    plotter.print_best_parameters(results)\r\n    logger.info(\"Plots generated successfully.\")\r\n\r\n\r\ndef main():\r\n    \"\"\"\r\n    Main function to execute the model training and evaluation pipeline.\r\n\r\n    Initializes the dataset, defines models and their parameter grids,\r\n    and invokes the replication of model training and evaluation.\r\n    \"\"\"\r\n    logger = Logger(log_file=\"outputs/application.log\")\r\n    logger.info(\"Application started.\")\r\n\r\n    dataset = DatasetRefactored()\r\n    models, param_grids = initialize_models_and_params()\r\n    experiment, results = run_experiment(dataset, models, param_grids, logger)\r\n    plot_results(experiment, results, logger)\r\n\r\n    logger.info(\"Application finished successfully.\")\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+===================================================================
+diff --git a/cv6/machine_learning/main.py b/cv6/machine_learning/main.py
+--- a/cv6/machine_learning/main.py	(revision c1fc2e111075191be44e6bd19c93d6b1a644cbeb)
++++ b/cv6/machine_learning/main.py	(date 1743178332910)
+@@ -1,5 +1,7 @@
+ import warnings
+ 
++from sklearn.ensemble import RandomForestClassifier
++
+ # Suppress specific FutureWarnings from scikit-learn
+ warnings.filterwarnings("ignore", category=FutureWarning)
+ 
+@@ -19,10 +21,17 @@
+     - param_grids: dict, dictionary of hyperparameter grids.
+     """
+     models = {
+-        "Logistic Regression": LogisticRegression(solver='liblinear')
++        "Logistic Regression": LogisticRegression(solver='liblinear'),
++        "Random Forest":  RandomForestClassifier(n_estimators=42),
+     }
+     param_grids = {
+-        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]}
++        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]},
++        "Random Forest": {
++            "n_estimators": [100, 200, 300],
++            "max_depth": [None, 10, 20],
++            "min_samples_split": [2, 5],
++            "min_samples_leaf": [1, 2]
++        }
+     }
+     return models, param_grids
+ 

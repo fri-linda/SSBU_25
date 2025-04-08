@@ -1,0 +1,28 @@
+Index: cv5/code/eda.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from data_handling_done import Dataset\r\n\r\nif __name__ == \"__main__\":\r\n    dataset = Dataset()\r\n\r\n    # plot class distribution\r\n    dataset.plot_class_distribution()\r\n\r\n    # plot correlation matrix\r\n    dataset.plot_correlation_matrix()\r\n\r\n    # plot feature importance\r\n    dataset.feature_importance()\r\n\r\n    # plot feature distributions\r\n    dataset.plot_feature_distributions()\r\n\r\n    # plot box plots\r\n    dataset.plot_box_plots()\r\n\r\n    # plot pair plot for the first 5 features\r\n    selected_features = dataset.feature_names[:5]\r\n    dataset.plot_pair_plot(selected_features)
+===================================================================
+diff --git a/cv5/code/eda.py b/cv5/code/eda.py
+--- a/cv5/code/eda.py	(revision d556d5e65a2abffedc56c1adf3caf5e6a69127a2)
++++ b/cv5/code/eda.py	(date 1742456999860)
+@@ -1,4 +1,4 @@
+-from data_handling_done import Dataset
++from data_handling import Dataset
+ 
+ if __name__ == "__main__":
+     dataset = Dataset()
+Index: cv5/code/visualization.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from data_handling_done import Dataset\r\n\r\nif __name__ == \"__main__\":\r\n    dataset_std = Dataset()\r\n    dataset_norm = Dataset()\r\n\r\n    # split and scale data\r\n    X_train_s, X_test_s, y_train_s, _ = dataset_std.split_data()\r\n    X_train_n, X_test_n, y_train_n, _ = dataset_std.split_data()\r\n\r\n    # standardization\r\n    X_train_standard, _ = dataset_std.scale_data(X_train_s, X_test_s, scale_type='standard')\r\n    dataset_std.plot_all_features_before_after_scaling(X_train_s, X_train_standard, scale_type='Standardization')\r\n    dataset_std.plot_feature_before_after_scaling(X_train_s, X_train_standard, feature_name='mean area')\r\n    dataset_std.plot_box_plots(scaled_data=X_train_standard, target=y_train_s)\r\n\r\n    # normalization\r\n    X_train_norm, _ = dataset_norm.scale_data(X_train_n, X_test_n, scale_type='normalize')\r\n    dataset_norm.plot_all_features_before_after_scaling(X_train_n, X_train_norm, scale_type='Normalization')\r\n    dataset_norm.plot_feature_before_after_scaling(X_train_n, X_train_norm, feature_name='mean area')\r\n    dataset_norm.plot_box_plots(scaled_data=X_train_norm, target=y_train_n)
+===================================================================
+diff --git a/cv5/code/visualization.py b/cv5/code/visualization.py
+--- a/cv5/code/visualization.py	(revision d556d5e65a2abffedc56c1adf3caf5e6a69127a2)
++++ b/cv5/code/visualization.py	(date 1742457867952)
+@@ -1,4 +1,4 @@
+-from data_handling_done import Dataset
++from data_handling import Dataset
+ 
+ if __name__ == "__main__":
+     dataset_std = Dataset()
