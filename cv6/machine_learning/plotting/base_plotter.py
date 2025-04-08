@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 from typing import Callable
-
+import matplotlib
+matplotlib.use('TkAgg')
 
 class BasePlotter:
     """Abstract base class for common plotting functionality."""

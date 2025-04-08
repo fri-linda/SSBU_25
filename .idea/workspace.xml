@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a415b6ee-e7b8-4781-8649-c694fe5e103a" name="Changes" comment="5.4">
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/data/data_handling_refactored.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/data/data_handling_refactored.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/experiment/experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/experiment/experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/models/model_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/models/model_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/models/model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/models/model_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/outputs/model_accuracies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/outputs/model_accuracies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/plotting/base_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/plotting/base_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/plotting/dataset_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/plotting/dataset_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/plotting/experiment_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/plotting/experiment_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cv6/machine_learning/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/cv6/machine_learning/utils/logger.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SajMoooner&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SajMoooner/SSBU_25.git&quot;,
+    &quot;accountId&quot;: &quot;d828734b-d418-4cf9-981a-8d2a63cecf1c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2v26zh8ypJ6SckyM6twQqFaE0wo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.CV4_2_Zadanie_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Python.executor&quot;: &quot;Run&quot;,
+    &quot;Python.base_plotter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;zadanie__1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ochot/OneDrive - SimoTeck/Desktop/Škola/Ing/Kostol/cv6/machine_learning/main.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ochot\OneDrive - SimoTeck\Desktop\Škola\Ing\Kostol\cv4\exports" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ochot\OneDrive - SimoTeck\Desktop\Škola\Ing\Kostol\zadanie1" />
+      <recent name="C:\Users\ochot\OneDrive - SimoTeck\Desktop\Škola\Ing\Kostol\cv4" />
+      <recent name="C:\Users\ochot\OneDrive - SimoTeck\Desktop\Škola\Ing\Kostol\cv4\exports" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python" type="PythonConfigurationType" factoryName="Python">
+      <module name="Kostol" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Kostol)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cv6/machine_learning/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.19416.19" />
+        <option value="bundled-python-sdk-337b0a7a993a-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.19416.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a415b6ee-e7b8-4781-8649-c694fe5e103a" name="Changes" comment="" />
+      <created>1743331086162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743331086162</updated>
+      <workItem from="1743331087276" duration="2214000" />
+      <workItem from="1743335835997" duration="755000" />
+      <workItem from="1743340834064" duration="3000" />
+      <workItem from="1743340894211" duration="5000" />
+      <workItem from="1743535999775" duration="277000" />
+      <workItem from="1743536284202" duration="1087000" />
+      <workItem from="1743537414135" duration="1250000" />
+      <workItem from="1743796520682" duration="2000" />
+      <workItem from="1743854436500" duration="5927000" />
+    </task>
+    <task id="LOCAL-00001" summary="30.3">
+      <option name="closed" value="true" />
+      <created>1743335984468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743335984468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.4">
+      <option name="closed" value="true" />
+      <created>1743536982493</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743536982493</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1.4">
+      <option name="closed" value="true" />
+      <created>1743538074793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743538074793</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5.4">
+      <option name="closed" value="true" />
+      <created>1743860057464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743860057464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="30.3" />
+    <MESSAGE value="1.4" />
+    <MESSAGE value="5.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.4" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kostol$main.coverage" NAME="main Coverage Results" MODIFIED="1743860718225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cv6/machine_learning" />
+    <SUITE FILE_PATH="coverage/Kostol$base_plotter.coverage" NAME="base_plotter Coverage Results" MODIFIED="1743859040213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cv6/machine_learning/plotting" />
+    <SUITE FILE_PATH="coverage/Kostol$Python.coverage" NAME="Python Coverage Results" MODIFIED="1743860634564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Kostol$CV4_2_Zadanie_1.coverage" NAME="CV4_2_Zadanie_1 Coverage Results" MODIFIED="1743335711752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cv4/exports" />
+  </component>
+</project>
