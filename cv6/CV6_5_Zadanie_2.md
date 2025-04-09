@@ -16,6 +16,12 @@ Pridajte do kódu ďalší model strojového učenia (ľubovoľný), a taktiež 
 
 #TODO - Popis
 
+Pridany model: RandomForestClassifier (nahodny les), zalozeny na viacerých rozhodovacích stromoch.
+Pouzivame ho na binarnu klasifikaciu (maligny vs. benigny nador).
+Parametre pre GridSearchCV:
+- n_estimators: [50, 100, 150] – pocet stromov v lese
+- max_depth: [None, 10, 20] – maximalna hlbka stromov
+
 ### Úloha 2 (2b)
 
 Implementujte ďalšiu (ľubovoľnú) metriku pre evaluáciu modelov. Nezabudnite na to, aby sa implementovaná metrika ukladala do logov v súbore `model_accuracies.csv` a tiež ju pridajte do grafov (do grafov pre funkciu hustoty rozdelenia a tiež pre ňu vytvorte nový graf ktorý bude zobrazovať jej priebeh počas replikácií - tak ako pre presnosť (accuracy)).  
@@ -23,6 +29,12 @@ Implementujte ďalšiu (ľubovoľnú) metriku pre evaluáciu modelov. Nezabudnit
 **Uveďte akú metriku ste doplnili:**
 
 #TODO - Metrika
+
+Pridana metrika: F1-score
+Vypocitana v ModelTrainer.evaluate()
+Zapisuje sa spolu s accuracy a roc_auc do outputs/model_accuracies.csv cez funkciu log_metrics_to_csv() v __train_and_evaluate_model() v experiment.py
+
+
 
 ### Úloha 3 (1b)
 
@@ -33,6 +45,23 @@ Do implementácie pridajte ukladanie všetkých grafov, ktoré sa vytvárajú pr
 **V skripte `main.py`** nastavte počet replikácií na vyššie číslo (rozumne, podľa vlastného uváženia). Vykonajte beh aplikácie s Vašou implementáciou. Po skončení behu zanalyzujte vygenerované grafy a pár vetami popíšte ich interpretáciu. (Napr. v čom je ktorý ML model lepší, a pod.)
 
 #TODO - Interpretácia
+
+Pre všetky tri metriky (accuracy, F1-score, ROC AUC) platí:
+
+Modrá krivka (Logistic Regression) je vyššia a užšia = model je stabilnejší a konzistentnejší.
+Oranžová krivka (Random Forest) je širšia = väčšia variabilita výkonu.
+
+- Accuracy
+Logistic Regression sústreďuje väčšinu výsledkov medzi 0.975 – 0.985.
+Random Forest medzi 0.94 – 0.975.
+
+- F1 Score
+Logistic Regression: viac výsledkov okolo 0.975 – 0.985.
+Random Forest: nižší priemer, častejšie hodnoty 0.95 – 0.97.
+
+- ROC AUC
+Logistic Regression: ostro sústredené nad 0.995, čo naznačuje takmer ideálne oddelenie tried.
+Random Forest: nižšie hodnoty, rozloženie rozšírené smerom k 0.99.
 
 **Odovzdávanie riešenia:** Ako súčasť riešenia zahrňte okrem odpovedí na otázky aj skripty s Vašou implementáciou, vygenerované logy a grafy (všetko môžete dať na Github).
 

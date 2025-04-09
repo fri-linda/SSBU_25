@@ -8,7 +8,7 @@ class ExperimentPlotter(BasePlotter):
 
     def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc')):
         """
-        Plot density plots for specified metrics.
+        Plot density 20replikacii for specified metrics.
 
         Parameters:
         - results: DataFrame containing the results.

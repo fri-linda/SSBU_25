@@ -40,7 +40,7 @@ class DatasetPlotter(BasePlotter):
 
     def plot_box_plots(self, df: pd.DataFrame, target_col: str):
         """
-        Plots box plots for each feature in the dataset split by target class.
+        Plots box 20replikacii for each feature in the dataset split by target class.
 
         Parameters:
         - df: DataFrame containing the dataset features and target column.
@@ -52,7 +52,7 @@ class DatasetPlotter(BasePlotter):
 
     def plot_pair_plot(self, df: pd.DataFrame, features: list, target_col: str):
         """
-        Plots pair plots for the selected features in the dataset.
+        Plots pair 20replikacii for the selected features in the dataset.
 
         Parameters:
         - df: DataFrame containing the dataset features and target column.

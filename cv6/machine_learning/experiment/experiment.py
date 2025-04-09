@@ -10,6 +10,9 @@ from data.data_handling_refactored import DatasetRefactored
 from models.model_optimizer import ModelOptimizer
 from models.model_trainer import ModelTrainer
 
+# nová metrika pre zadanie 2
+from utils.metric_logger import log_metrics_to_csv
+
 class Experiment:
     """A class to handle the entire experiment of training and evaluating models."""
 
@@ -83,6 +86,8 @@ class Experiment:
         # train and evaluate the model
         trainer.train(X_train, y_train)
         accuracy, f1, roc_auc, predictions = trainer.evaluate(X_test, y_test)
+        # zapis metriky do csv suboru (samostatny log pre dalsie grafy)
+        log_metrics_to_csv(run_id=replication, model_name=model_name, accuracy=accuracy, f1_score=f1,roc_auc=roc_auc)
 
         self.__store_results(model_name, replication, accuracy, f1, roc_auc, best_params)
         self.replication_conf_matrices[model_name].append(confusion_matrix(y_test, predictions))
