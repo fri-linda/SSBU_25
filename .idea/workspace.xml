@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="774996ef-3f9f-486a-993d-769595cd56ba" name="Changes" comment="feat(zadanie_2): uloha 4">
+      <change afterPath="$PROJECT_DIR$/.idea/SSBU.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv6/machine_learning/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv6/machine_learning/.idea/machine_learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv6/machine_learning/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv6/machine_learning/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv7/biomedical-app_done/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/CV6_5_Zadanie_2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/machine_learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/data/data_handling_refactored.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/experiment/experiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/accuracy_over_replications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/conf_matrix_Logistic_Regression.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/conf_matrix_Random_Forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/density_accuracy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/density_f1_score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/density_roc_auc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/machine_learning/f1 score_over_replications.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/models/model_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/models/model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/models/random_forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/outputs/model_accuracies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/plotting/base_plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/plotting/dataset_plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/plotting/experiment_plotter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadanie2/machine_learning_geratova_sara/wdbc.data" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vD1esZfGX9tfGto2N2t37TkqzG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "zadanie__2",
+    "last_opened_file_path": "C:/projects/skola/.BI2/SSBU/cv7/biomedical-app_done",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\skola\.BI2\SSBU\zadanie2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="774996ef-3f9f-486a-993d-769595cd56ba" name="Changes" comment="zadanie 1 update" />
+      <created>1743664928920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743664928920</updated>
+      <workItem from="1743664930176" duration="342000" />
+      <workItem from="1743665561217" duration="456000" />
+      <workItem from="1743666223602" duration="1840000" />
+      <workItem from="1743669464270" duration="565000" />
+      <workItem from="1743670078922" duration="1640000" />
+      <workItem from="1743876532950" duration="4572000" />
+      <workItem from="1743932053886" duration="581000" />
+      <workItem from="1744100910430" duration="131000" />
+      <workItem from="1744101052024" duration="7616000" />
+      <workItem from="1744200742483" duration="324000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(zadanie_2): uloha 3">
+      <option name="closed" value="true" />
+      <created>1744193687980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744193687980</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(zadanie_2): uloha 4">
+      <option name="closed" value="true" />
+      <created>1744200149068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744200149068</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zadanie 1 update" />
+    <MESSAGE value="feat(zadanie_2): uloha 3" />
+    <MESSAGE value="feat(zadanie_2): uloha 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(zadanie_2): uloha 4" />
+  </component>
+</project>
