@@ -95,6 +95,7 @@ class Experiment:
             'accuracy': accuracy,
             'f1_score': f1,
             'roc_auc': roc_auc,
+            'precision': precision,
             'best_params': [best_params]
         })
         self.results = pd.concat([self.results, new_row], ignore_index=True)

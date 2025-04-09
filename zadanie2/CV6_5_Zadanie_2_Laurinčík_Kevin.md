@@ -30,21 +30,20 @@ Doplnil som metriku precision (presnosť), ktorá meria podiel správne identifi
 
 Do implementácie pridajte ukladanie všetkých grafov, ktoré sa vytvárajú pri behu skriptu `main.py`` v adresári `machine_learning`.
 
-Všetky grafy sa teraz ukladajú do priečinka "outputs/plots" ako PNG súbory. Vytvoril som ukladanie v novom súbore plot_saver.py a použil ju v main.py.
+V rámci ukladania grafov som zabezpečil, aby sa všetky grafy generované skriptom main.py automaticky ukladali do priečinka outputs/plots. Toto zahŕňa grafy hustôt rozdelenia pre accuracy, F1 score a precision, ako aj grafy vývoja týchto metrík počas replikácií a konfúzne matice pre jednotlivé modely.
 
 ### Úloha 4 (1b)
 
 **V skripte `main.py`** nastavte počet replikácií na vyššie číslo (rozumne, podľa vlastného uváženia). Vykonajte beh aplikácie s Vašou implementáciou. Po skončení behu zanalyzujte vygenerované grafy a pár vetami popíšte ich interpretáciu. (Napr. v čom je ktorý ML model lepší, a pod.)
 
-Graf "metric_density_distribution.png": Distribúcia accuracy ukazuje, že Random Forest má najvyššiu a najstabilnejšiu presnosť. 
-Graf "accuracy_over_replications.png": Krivky ukazujú, že Random Forest dosahuje konzistentne vysokú presnosť (modrá čiara) s malými výkyvmi medzi replikáciami.
-Graf "precision_over_replications.png": Precision metrika potvrdzuje, že Random Forest najlepšie identifikuje skutočné pozitívne prípady. Logistická regresia vykazuje najnižšiu a najnestabilnejšiu precision.
-Grafy confusion matrices: Random Forest má najnižší počet falošne negatívnych prípadov.
-So zvyšujúcim sa počtom replikácií sa priemerné hodnoty metrík stabilizujú, čo potvrdzuje spoľahlivosť výsledkov.
-Variabilita výsledkov medzi replikáciami je najnižšia pri Random Forest, čo z neho robí najspoľahlivejší model.
-Random Forest sa ukazuje ako najvhodnejší model pre tento dataset, pretože kombinuje vysokú presnosť s nízkou variabilitou medzi replikáciami. 
-SVM by mohol byť alternatívou v špecifických prípadoch, kde je kritická minimalizácia falošne pozitívnych výsledkov. 
-Logistická regresia, hoci najrýchlejšia, nedosahuje dostatočnú presnosť pre túto úlohu.
+Po zvýšení počtu replikácií na 25 som mohol detailnejšie analyzovať výkon jednotlivých modelov.
+Na grafoch hustoty logická regresia preukázala najlepšie výsledky. 
+SVM dosahoval mierne nižšiu presnosť ale bol vlastne druhou najlepšou voľbou.
+Random forest zaostával vo výsledkoch na našich grafoch za predošlími metódami.
+Podľa grafoch ktoré sledovali napríklad precision nad počtom replikácií môžeme vidieť, že logická regresia a random forrest sú na tom zhruba rovnako a trochu za nimi zaostáva SVM.
+Pri grafe accuracy nad replikáciami to bolo zase tak, že Logická regresia vedie spolu s SVM a zaostáva za nimi Random Forrest.
+Po súčte chýb prvého a druhého typu z grafov matíc vieme povedať že najvhodnejším modelom je logická regresia.
+Tieto výsledky potvrdzujú, že pre túto diagnostickú úlohu je Logická regresia najvhodnejšou voľbou.
 
 **Odovzdávanie riešenia:** Ako súčasť riešenia zahrňte okrem odpovedí na otázky aj skripty s Vašou implementáciou, vygenerované logy a grafy (všetko môžete dať na Github).
 

@@ -6,7 +6,7 @@ from plotting.base_plotter import BasePlotter
 class ExperimentPlotter(BasePlotter):
     """A class for plotting the results of machine learning experiments."""
 
-    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc')):
+    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc', 'precision')):
         """
         Plot density plots for specified metrics.
 
@@ -28,6 +28,7 @@ class ExperimentPlotter(BasePlotter):
                 ylabel='Density',
                 figsize=(10, 6)
             )
+
 
     def plot_evaluation_metric_over_replications(self, all_metric_results, title, metric_name):
         """
