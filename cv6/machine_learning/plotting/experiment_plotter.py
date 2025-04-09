@@ -1,6 +1,6 @@
 import seaborn as sns
 from matplotlib import pyplot as plt
-from plotting.base_plotter import BasePlotter
+from cv6.machine_learning.plotting.base_plotter import BasePlotter
 
 
 class ExperimentPlotter(BasePlotter):
@@ -87,3 +87,22 @@ class ExperimentPlotter(BasePlotter):
             model_results = results[results['model'] == model_name]
             best_params_list = model_results['best_params'].value_counts().index[0]
             print(f"Most frequently chosen best parameters for {model_name}: {best_params_list}")
+
+    def plot_recall_over_replications(self, recall_scores):
+
+        plt.figure(figsize=(10, 6))
+
+        for model, scores in recall_scores.items():
+            plt.plot(scores, marker='o', label=model)  # Plot each model's recall scores
+
+        plt.title('Recall over Replications')
+
+        plt.xlabel('Replication')
+
+        plt.ylabel('Recall')
+
+        plt.legend()  # Add a legend to differentiate models
+
+        plt.grid()
+
+        plt.show()

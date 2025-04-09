@@ -2,7 +2,7 @@ import seaborn as sns
 import pandas as pd
 from matplotlib import pyplot as plt
 
-from plotting.base_plotter import BasePlotter
+from cv6.machine_learning.plotting.base_plotter import BasePlotter
 
 
 class DatasetPlotter(BasePlotter):
