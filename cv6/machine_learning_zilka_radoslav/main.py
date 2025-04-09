@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 from sklearn.linear_model import LogisticRegression
 from data.data_handling_refactored import DatasetRefactored
 from experiment.experiment import Experiment
-from cv6.machine_learning.plotting.experiment_plotter import ExperimentPlotter
+from cv6.machine_learning_zilka_radoslav.plotting.experiment_plotter import ExperimentPlotter
 from utils.logger import Logger
 
 

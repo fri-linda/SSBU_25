@@ -7,9 +7,9 @@ from sklearn.model_selection import StratifiedKFold, train_test_split
 import os
 
 
-from cv6.machine_learning.data.data_handling_refactored import DatasetRefactored
-from cv6.machine_learning.models.model_optimizer import ModelOptimizer
-from cv6.machine_learning.models.model_trainer import ModelTrainer
+from cv6.machine_learning_zilka_radoslav.data.data_handling_refactored import DatasetRefactored
+from cv6.machine_learning_zilka_radoslav.models.model_optimizer import ModelOptimizer
+from cv6.machine_learning_zilka_radoslav.models.model_trainer import ModelTrainer
 
 class Experiment:
     """A class to handle the entire experiment of training and evaluating models."""

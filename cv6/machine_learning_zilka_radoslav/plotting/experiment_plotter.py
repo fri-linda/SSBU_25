@@ -1,6 +1,6 @@
 import seaborn as sns
 from matplotlib import pyplot as plt
-from cv6.machine_learning.plotting.base_plotter import BasePlotter
+from cv6.machine_learning_zilka_radoslav.plotting.base_plotter import BasePlotter
 
 
 class ExperimentPlotter(BasePlotter):
