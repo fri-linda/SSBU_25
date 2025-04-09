@@ -89,20 +89,12 @@ class ExperimentPlotter(BasePlotter):
             print(f"Most frequently chosen best parameters for {model_name}: {best_params_list}")
 
     def plot_recall_over_replications(self, recall_scores):
-
         plt.figure(figsize=(10, 6))
-
         for model, scores in recall_scores.items():
-            plt.plot(scores, marker='o', label=model)  # Plot each model's recall scores
-
+            plt.plot(scores, marker='o', label=model)
         plt.title('Recall over Replications')
-
         plt.xlabel('Replication')
-
         plt.ylabel('Recall')
-
-        plt.legend()  # Add a legend to differentiate models
-
+        plt.legend()
         plt.grid()
-
         plt.show()
