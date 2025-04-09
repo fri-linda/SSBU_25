@@ -12,9 +12,10 @@ Dataset Breast Cancer Wisconsin (Diagnostic) obsahuje údaje získané z digital
 
 Pridajte do kódu ďalší model strojového učenia (ľubovoľný), a taktiež definujte parametre a ich hodnoty pre Grid Search.
 
-**Uveďte aký ML model a hodnoty jeho parametrov ste použili:**
+Použil som model **RandomForestClassifier** zo scikit-learn. Pre tento model som definoval nasledovný hyperparameter grid pre Grid Search:  
+- **n_estimators:** `[50, 100, 200]`  
+- **max_depth:** `[None, 10, 20]`  
 
-#TODO - Popis
 
 ### Úloha 2 (2b)
 
@@ -22,7 +23,12 @@ Implementujte ďalšiu (ľubovoľnú) metriku pre evaluáciu modelov. Nezabudnit
 
 **Uveďte akú metriku ste doplnili:**
 
-#TODO - Metrika
+Ako ďalšiu metriku som implementoval **precision** (presnosť), ktorá udáva pomer správne identifikovaných pozitívnych prípadov k celkovému počtu prípadov, ktoré boli klasifikované ako pozitívne 🎯.  
+Implementácia zahŕňa:  
+- Úpravu triedy `ModelTrainer` na výpočet precision pomocou funkcie `precision_score` zo sklearn.  
+- Uloženie hodnoty precision do CSV súboru (`model_accuracies.csv`).  
+- Pridanie precision do grafov hustoty rozdelenia a vytvorenie samostatného grafu, ktorý zobrazuje priebeh precision počas replikácií.
+
 
 ### Úloha 3 (1b)
 
@@ -32,7 +38,14 @@ Do implementácie pridajte ukladanie všetkých grafov, ktoré sa vytvárajú pr
 
 **V skripte `main.py`** nastavte počet replikácií na vyššie číslo (rozumne, podľa vlastného uváženia). Vykonajte beh aplikácie s Vašou implementáciou. Po skončení behu zanalyzujte vygenerované grafy a pár vetami popíšte ich interpretáciu. (Napr. v čom je ktorý ML model lepší, a pod.)
 
-#TODO - Interpretácia
+- **Počet replikácií:** V skripte `main.py` som nastavil počet replikácií na **20**. Tento vyšší počet replikácií poskytuje robustnejšie a štatisticky významnejšie výsledky.
+- **Interpretácia vygenerovaných grafov:**  
+  - **Hustotné grafy metrik (accuracy, f1, roc_auc, precision):**  
+    - Grafy ukazujú, že model **Random Forest** dosahuje konzistentnejšie a často aj lepšie výsledky v porovnaní s **Logistic Regression**.  
+  - **Grafy priebehu metrik počas replikácií:**  
+    - Tieto grafy odhaľujú, že variabilita výsledkov pre Random Forest je nižšia, čo naznačuje stabilnejší výkon naprieč rôznymi behmi.  
+  - **Priemerné matice zámien:**  
+    - Matice potvrdzujú, že Random Forest robí menej chýb pri klasifikácii, čo je dôležité najmä pri riešení nevyvážených datasetov 📊.
 
 **Odovzdávanie riešenia:** Ako súčasť riešenia zahrňte okrem odpovedí na otázky aj skripty s Vašou implementáciou, vygenerované logy a grafy (všetko môžete dať na Github).
 
