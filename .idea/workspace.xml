@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2609de91-0a43-464b-b3da-c73acfb156a3" name="Changes" comment="2.4" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="zadanie_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;miriamka216&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/miriamka216/SSBU_25.git&quot;,
+    &quot;accountId&quot;: &quot;1f6e7bb0-be0f-4e6c-b5ed-10ed53f9acde&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2tc9WS5lVRZFgxNfHUBFpJVbRZf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "zadanie__2",
+    "last_opened_file_path": "C:/Users/OEM/PycharmProjects/SSBU_25/zadanie1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OEM\PycharmProjects\SSBU_25\zadanie1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2609de91-0a43-464b-b3da-c73acfb156a3" name="Changes" comment="" />
+      <created>1740640528051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740640528051</updated>
+      <workItem from="1740640529550" duration="9227000" />
+      <workItem from="1741001608155" duration="4000" />
+      <workItem from="1741001623774" duration="117000" />
+      <workItem from="1741086797057" duration="627000" />
+      <workItem from="1741242532368" duration="5997000" />
+      <workItem from="1742471762492" duration="675000" />
+      <workItem from="1743059049516" duration="6010000" />
+      <workItem from="1743331156050" duration="254000" />
+      <workItem from="1743577697762" duration="274000" />
+      <workItem from="1743577989878" duration="598000" />
+      <workItem from="1743667827843" duration="36000" />
+      <workItem from="1744181096708" duration="1240000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit 27.2">
+      <option name="closed" value="true" />
+      <created>1740659365828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740659365828</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit 6.3">
+      <option name="closed" value="true" />
+      <created>1741250080169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741250080169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="27.3">
+      <option name="closed" value="true" />
+      <created>1743065807037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743065807037</updated>
+    </task>
+    <task id="LOCAL-00004" summary="27.3">
+      <option name="closed" value="true" />
+      <created>1743331190957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743331190957</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2.4">
+      <option name="closed" value="true" />
+      <created>1743578192524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743578192524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2.4">
+      <option name="closed" value="true" />
+      <created>1743578285894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743578285894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit 27.2" />
+    <MESSAGE value="commit 6.3" />
+    <MESSAGE value="27.3" />
+    <MESSAGE value="2.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.4" />
+  </component>
+</project>
