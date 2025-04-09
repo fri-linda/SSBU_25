@@ -87,3 +87,13 @@ class ExperimentPlotter(BasePlotter):
             model_results = results[results['model'] == model_name]
             best_params_list = model_results['best_params'].value_counts().index[0]
             print(f"Most frequently chosen best parameters for {model_name}: {best_params_list}")
+
+    def plot_precision_over_replications(self, precision_results):
+        """Plot precision over replications for each model."""
+        self._BasePlotter__generic_plot(
+            lambda: self._plot_metric_over_replications(precision_results, 'Precision'),
+            title='Precision per Replication',
+            xlabel='Replication',
+            ylabel='Precision',
+            figsize=(10, 5)
+        )

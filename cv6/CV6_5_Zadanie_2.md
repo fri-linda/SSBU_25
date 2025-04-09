@@ -14,7 +14,9 @@ Pridajte do kódu ďalší model strojového učenia (ľubovoľný), a taktiež 
 
 **Uveďte aký ML model a hodnoty jeho parametrov ste použili:**
 
-#TODO - Popis
+Pridal som dva nové modely - Random Forest a SVM. 
+Pre Random Forest som nastavil parametre: n_estimators [50, 100, 200], max_depth [None, 5, 10], min_samples_split [2, 5, 10]. 
+Pre SVM: C [0.1, 1, 10], kernel ['linear', 'rbf'], gamma ['scale', 'auto'].
 
 ### Úloha 2 (2b)
 
@@ -22,17 +24,27 @@ Implementujte ďalšiu (ľubovoľnú) metriku pre evaluáciu modelov. Nezabudnit
 
 **Uveďte akú metriku ste doplnili:**
 
-#TODO - Metrika
+Doplnil som metriku precision (presnosť), ktorá meria podiel správne identifikovaných pozitívnych prípadov zo všetkých predpovedaných pozitívnych prípadov. 
 
 ### Úloha 3 (1b)
 
 Do implementácie pridajte ukladanie všetkých grafov, ktoré sa vytvárajú pri behu skriptu `main.py`` v adresári `machine_learning`.
 
+Všetky grafy sa teraz ukladajú do priečinka "outputs/plots" ako PNG súbory. Vytvoril som ukladanie v novom súbore plot_saver.py a použil ju v main.py.
+
 ### Úloha 4 (1b)
 
 **V skripte `main.py`** nastavte počet replikácií na vyššie číslo (rozumne, podľa vlastného uváženia). Vykonajte beh aplikácie s Vašou implementáciou. Po skončení behu zanalyzujte vygenerované grafy a pár vetami popíšte ich interpretáciu. (Napr. v čom je ktorý ML model lepší, a pod.)
 
-#TODO - Interpretácia
+Graf "metric_density_distribution.png": Distribúcia accuracy ukazuje, že Random Forest má najvyššiu a najstabilnejšiu presnosť. 
+Graf "accuracy_over_replications.png": Krivky ukazujú, že Random Forest dosahuje konzistentne vysokú presnosť (modrá čiara) s malými výkyvmi medzi replikáciami.
+Graf "precision_over_replications.png": Precision metrika potvrdzuje, že Random Forest najlepšie identifikuje skutočné pozitívne prípady. Logistická regresia vykazuje najnižšiu a najnestabilnejšiu precision.
+Grafy confusion matrices: Random Forest má najnižší počet falošne negatívnych prípadov.
+So zvyšujúcim sa počtom replikácií sa priemerné hodnoty metrík stabilizujú, čo potvrdzuje spoľahlivosť výsledkov.
+Variabilita výsledkov medzi replikáciami je najnižšia pri Random Forest, čo z neho robí najspoľahlivejší model.
+Random Forest sa ukazuje ako najvhodnejší model pre tento dataset, pretože kombinuje vysokú presnosť s nízkou variabilitou medzi replikáciami. 
+SVM by mohol byť alternatívou v špecifických prípadoch, kde je kritická minimalizácia falošne pozitívnych výsledkov. 
+Logistická regresia, hoci najrýchlejšia, nedosahuje dostatočnú presnosť pre túto úlohu.
 
 **Odovzdávanie riešenia:** Ako súčasť riešenia zahrňte okrem odpovedí na otázky aj skripty s Vašou implementáciou, vygenerované logy a grafy (všetko môžete dať na Github).
 

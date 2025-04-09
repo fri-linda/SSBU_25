@@ -82,12 +82,12 @@ class Experiment:
 
         # train and evaluate the model
         trainer.train(X_train, y_train)
-        accuracy, f1, roc_auc, predictions = trainer.evaluate(X_test, y_test)
+        accuracy, f1, roc_auc, precision, predictions = trainer.evaluate(X_test, y_test)
 
-        self.__store_results(model_name, replication, accuracy, f1, roc_auc, best_params)
+        self.__store_results(model_name, replication, accuracy, f1, roc_auc, precision, best_params)
         self.replication_conf_matrices[model_name].append(confusion_matrix(y_test, predictions))
 
-    def __store_results(self, model_name, replication, accuracy, f1, roc_auc, best_params):
+    def __store_results(self, model_name, replication, accuracy, f1, roc_auc, precision, best_params):
         """Store the results of a single evaluation."""
         new_row = pd.DataFrame({
             'model': model_name,
@@ -101,7 +101,8 @@ class Experiment:
 
         # append the results to the CSV file
         with open(self.accuracies_file, 'a') as file:
-            file.write(f"{model_name},{replication + 1},{accuracy:.4f},{f1:.4f},{roc_auc:.4f},\"{best_params}\"\n")
+            file.write(
+                f"{model_name},{replication + 1},{accuracy:.4f},{f1:.4f},{roc_auc:.4f},{precision:.4f},\"{best_params}\"\n")
 
     def __calculate_mean_conf_matrices(self):
         """Calculate the mean confusion matrisx for each model."""
