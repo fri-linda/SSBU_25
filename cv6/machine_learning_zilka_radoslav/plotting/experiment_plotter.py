@@ -1,6 +1,7 @@
 import seaborn as sns
 from matplotlib import pyplot as plt
 from cv6.machine_learning_zilka_radoslav.plotting.base_plotter import BasePlotter
+import os
 
 
 class ExperimentPlotter(BasePlotter):
@@ -28,6 +29,10 @@ class ExperimentPlotter(BasePlotter):
                 ylabel='Density',
                 figsize=(10, 6)
             )
+            plots_dir = 'machine_learning/plots/metric'
+            os.makedirs(plots_dir, exist_ok=True)
+            plt.savefig(os.path.join(plots_dir, f'metric_density_{metric}.png'))
+            plt.close()
 
     def plot_evaluation_metric_over_replications(self, all_metric_results, title, metric_name):
         """
@@ -38,12 +43,13 @@ class ExperimentPlotter(BasePlotter):
         - title: str, title of the plot.
         - metric_name: str, name of the metric to display on the y-axis.
         """
+
         def plot_func():
             colors = ['green', 'orange', 'blue']
             for i, (model_name, values) in enumerate(all_metric_results.items()):
                 plt.plot(values, label=f"{model_name} per replication", alpha=0.5, color=colors[i % len(colors)])
                 avg_accuracy = sum(values) / len(values)
-                plt.axhline(y=avg_accuracy, linestyle='--', color=colors[i % len(colors)], 
+                plt.axhline(y=avg_accuracy, linestyle='--', color=colors[i % len(colors)],
                             label=f"{model_name} average accuracy: {avg_accuracy:.2f}")
             plt.legend()
 
@@ -54,6 +60,10 @@ class ExperimentPlotter(BasePlotter):
             ylabel=metric_name,
             figsize=(10, 5)
         )
+        plots_dir = 'machine_learning/plots/evaluation'
+        os.makedirs(plots_dir, exist_ok=True)
+        plt.savefig(os.path.join(plots_dir, 'accuracy_over_replications.png'))
+        plt.close()
 
     def plot_confusion_matrices(self, confusion_matrices):
         """
@@ -75,6 +85,10 @@ class ExperimentPlotter(BasePlotter):
                 ylabel='True label',
                 figsize=(6, 5)
             )
+            plots_dir = 'machine_learning/plots/confusion_matrices'
+            os.makedirs(plots_dir, exist_ok=True)
+            plt.savefig(os.path.join(plots_dir, f'confusion_matrix_{model_name}.png'))
+            plt.close()
 
     def print_best_parameters(self, results):
         """
@@ -89,6 +103,12 @@ class ExperimentPlotter(BasePlotter):
             print(f"Most frequently chosen best parameters for {model_name}: {best_params_list}")
 
     def plot_recall_over_replications(self, recall_scores):
+        """
+        Plot recall scores over replications for each model.
+
+        Parameters:
+        - recall_scores: Dict containing recall scores for each model.
+        """
         plt.figure(figsize=(10, 6))
         for model, scores in recall_scores.items():
             plt.plot(scores, marker='o', label=model)
@@ -97,4 +117,8 @@ class ExperimentPlotter(BasePlotter):
         plt.ylabel('Recall')
         plt.legend()
         plt.grid()
-        plt.show()
+
+        plots_dir = 'machine_learning/plots/recall'
+        os.makedirs(plots_dir, exist_ok=True)
+        plt.savefig(os.path.join(plots_dir, 'recall_over_replications.png'))
+        plt.close()

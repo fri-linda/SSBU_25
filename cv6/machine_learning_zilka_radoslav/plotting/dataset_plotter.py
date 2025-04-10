@@ -36,7 +36,7 @@ class DatasetPlotter(BasePlotter):
         """
         df.hist(bins=20, figsize=(20, 15))
         plt.tight_layout()
-        plt.show()
+        ##plt.show()
 
     def plot_box_plots(self, df: pd.DataFrame, target_col: str):
         """
@@ -61,4 +61,4 @@ class DatasetPlotter(BasePlotter):
         """
         plot = sns.pairplot(df, vars=features, hue=target_col, height=2.5)
         plot.fig.suptitle("Pair Plot of Selected Features", y=1.02)
-        plt.show()
+        ##plt.show()

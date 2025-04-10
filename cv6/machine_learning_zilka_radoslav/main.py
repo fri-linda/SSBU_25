@@ -53,7 +53,7 @@ def run_experiment(dataset, models, param_grids, logger):
     """
     logger.info("Starting the experiment...")
     # Set the number of replications to a higher value
-    n_replications = 120      # You can adjust this number as needed
+    n_replications = 120     # You can adjust this number as needed
     experiment = Experiment(models, param_grids, n_replications=n_replications, logger=logger)
     results = experiment.run(dataset.data, dataset.target)
     logger.info("Experiment completed successfully.")
@@ -72,19 +72,14 @@ def plot_results(experiment, results, logger):
     logger.info("Generating plots for the experiment results...")
     plotter = ExperimentPlotter()
     plotter.plot_metric_density(results)
-    save_plot('accuracy_density_plot.png')
     plotter.plot_evaluation_metric_over_replications(
         experiment.results.groupby('model')['accuracy'].apply(list).to_dict(),
         'Accuracy per Replication and Average Accuracy', 'Accuracy')
-    save_plot('accuracy_over_replications.png')
     plotter.plot_confusion_matrices(experiment.mean_conf_matrices)
-    save_plot('confusion_matrices.png')
     plotter.print_best_parameters(results)
-    save_plot('best_parameters.png')
     plotter.plot_recall_over_replications(
         experiment.results.groupby('model')['recall'].apply(list).to_dict()
     )
-    save_plot('recall_over_replications.png')
     logger.info("Plots generated successfully.")
 
 
@@ -104,16 +99,6 @@ def main():
     plot_results(experiment, results, logger)
 
     logger.info("Application finished successfully.")
-
-
-
-
-
-def save_plot(filename):
-    plots_dir = 'machine_learning/plots'
-    os.makedirs(plots_dir, exist_ok=True)
-    plt.savefig(os.path.join(plots_dir, filename))
-    plt.close()
 
 if __name__ == "__main__":
     main()
