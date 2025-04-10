@@ -1,5 +1,7 @@
 import warnings
 
+from sklearn.ensemble import RandomForestClassifier
+
 # Suppress specific FutureWarnings from scikit-learn
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -19,10 +21,16 @@ def initialize_models_and_params():
     - param_grids: dict, dictionary of hyperparameter grids.
     """
     models = {
-        "Logistic Regression": LogisticRegression(solver='liblinear')
+        "Logistic Regression": LogisticRegression(solver='liblinear'),
+        "Random Forest": RandomForestClassifier()
     }
     param_grids = {
-        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]}
+        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]},
+        "Random Forest": {
+            'n_estimators': [100, 200],
+            'max_depth': [None, 10, 20],
+            'min_samples_split': [2, 5]
+        }
     }
     return models, param_grids
 
@@ -63,6 +71,16 @@ def plot_results(experiment, results, logger):
     plotter.plot_evaluation_metric_over_replications(
         experiment.results.groupby('model')['accuracy'].apply(list).to_dict(),
         'Accuracy per Replication and Average Accuracy', 'Accuracy')
+    plotter.plot_evaluation_metric_over_replications(
+        experiment.results.groupby('model')['precision'].apply(list).to_dict(),
+        'Precision per Replication',
+        'Precision'
+    )
+    plotter.plot_evaluation_metric_over_replications(
+        experiment.results.groupby('model')['recall'].apply(list).to_dict(),
+        'Recall per Replication',
+        'Recall'
+    )
     plotter.plot_confusion_matrices(experiment.mean_conf_matrices)
     plotter.print_best_parameters(results)
     logger.info("Plots generated successfully.")
