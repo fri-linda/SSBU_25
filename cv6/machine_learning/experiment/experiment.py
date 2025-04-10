@@ -13,7 +13,7 @@ from cv6.machine_learning.models.model_trainer import ModelTrainer
 class Experiment:
     """A class to handle the entire experiment of training and evaluating models."""
 
-    def __init__(self, models, models_params, n_replications=1000, logger=None):
+    def __init__(self, models, models_params, n_replications=10, logger=None):
         """
         Initialize the Experiment with models, their parameters, and number of replications.
 

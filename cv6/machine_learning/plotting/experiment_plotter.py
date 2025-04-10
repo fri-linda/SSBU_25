@@ -7,7 +7,7 @@ from cv6.machine_learning.plotting.base_plotter import BasePlotter
 class ExperimentPlotter(BasePlotter):
     """A class for plotting the results of machine learning experiments."""
 
-    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc')):
+    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc', 'precision', 'recall')):
         """
         Plot density plots for specified metrics.
 
@@ -29,7 +29,6 @@ class ExperimentPlotter(BasePlotter):
                 ylabel='Density',
                 figsize=(10, 6)
             )
-            self.save_plot(f"{metric}_density.png")
 
     def plot_evaluation_metric_over_replications(self, all_metric_results, title, metric_name):
         """
@@ -56,7 +55,6 @@ class ExperimentPlotter(BasePlotter):
             ylabel=metric_name,
             figsize=(10, 5)
         )
-        self.save_plot(f"{metric_name}_over_replications.png")
 
     def plot_confusion_matrices(self, confusion_matrices):
         """
@@ -73,12 +71,11 @@ class ExperimentPlotter(BasePlotter):
                 fmt='.2f',
                 cmap='Blues',
                 cbar=False,
-                title=f'Average Confusion Matrix: {model_name}',
+                title=f'Average Confusion Matrix {model_name}',
                 xlabel='Predicted label',
                 ylabel='True label',
                 figsize=(6, 5)
             )
-            self.save_plot(f"{model_name}_over_replications.png")
 
     def print_best_parameters(self, results):
         """
@@ -91,7 +88,3 @@ class ExperimentPlotter(BasePlotter):
             model_results = results[results['model'] == model_name]
             best_params_list = model_results['best_params'].value_counts().index[0]
             print(f"Most frequently chosen best parameters for {model_name}: {best_params_list}")
-
-    def save_plot(self, name):
-        plt.savefig(f"outputs/{name}")
-        plt.tight_layout()
