@@ -1,12 +1,12 @@
 import seaborn as sns
 from matplotlib import pyplot as plt
 from plotting.base_plotter import BasePlotter
-
+import os
 
 class ExperimentPlotter(BasePlotter):
     """A class for plotting the results of machine learning experiments."""
 
-    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc')):
+    def plot_metric_density(self, results, metrics=('accuracy', 'f1_score', 'roc_auc','precision')):
         """
         Plot density plots for specified metrics.
 
@@ -26,8 +26,10 @@ class ExperimentPlotter(BasePlotter):
                 title=f'Density Plot of {metric.capitalize()}',
                 xlabel=metric.capitalize(),
                 ylabel='Density',
-                figsize=(10, 6)
+                figsize=(10, 6),
+                save_to_file=f'machine_learning/{metric}_density_plot.png'
             )
+
 
     def plot_evaluation_metric_over_replications(self, all_metric_results, title, metric_name):
         """
@@ -52,7 +54,8 @@ class ExperimentPlotter(BasePlotter):
             title=title,
             xlabel='Replication',
             ylabel=metric_name,
-            figsize=(10, 5)
+            figsize=(10, 5),
+            save_to_file = f'machine_learning/{metric_name}_over_replications_plot.png'
         )
 
     def plot_confusion_matrices(self, confusion_matrices):
@@ -73,7 +76,8 @@ class ExperimentPlotter(BasePlotter):
                 title=f'Average Confusion Matrix: {model_name}',
                 xlabel='Predicted label',
                 ylabel='True label',
-                figsize=(6, 5)
+                figsize=(6, 5),
+                save_to_file=f'machine_learning/confusion_matrix_{model_name}.png'
             )
 
     def print_best_parameters(self, results):

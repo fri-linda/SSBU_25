@@ -1,6 +1,6 @@
 import logging
 from typing import Optional
-
+import pandas as pd
 
 class Logger:
     """A utility class for setting up and managing logging."""
@@ -15,6 +15,7 @@ class Logger:
         """
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(log_level)
+
 
         # create a console handler
         console_handler = logging.StreamHandler()
@@ -33,6 +34,9 @@ class Logger:
             file_handler.setLevel(log_level)
             file_handler.setFormatter(formatter)
             self.logger.addHandler(file_handler)
+            self.log_file = log_file
+        else:
+            self.log_file = None
 
     def info(self, message: str):
         """Log an informational message."""
@@ -53,3 +57,12 @@ class Logger:
     def critical(self, message: str):
         """Log a critical message."""
         self.logger.critical(message)
+
+    def log_experiment_results(self, results_df):
+        """Log experiment results to a CSV file."""
+        if self.log_file:
+            # Append results to the CSV file, with the appropriate headers
+            results_df.to_csv(self.log_file, index=False, mode='a', header=not pd.io.common.file_exists(self.log_file))
+            self.info(f"Results saved to {self.log_file}")
+        else:
+            self.info(f"Experiment results: \n{results_df}")
