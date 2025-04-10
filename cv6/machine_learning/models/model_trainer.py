@@ -1,6 +1,6 @@
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
 from sklearn.utils.validation import check_X_y, check_array
-
+from sklearn.metrics import precision_score
 
 class ModelTrainer:
     """A class for training and evaluating machine learning models."""
@@ -40,6 +40,7 @@ class ModelTrainer:
         - accuracy: float, accuracy of the model on the test data.
         - f1: float, F1 score of the model on the test data.
         - roc_auc: float, ROC AUC of the model on the test data.
+        - precision: float, Precision of the model on the test data.
         - predictions: array, predicted labels for the test data.
         """
         X_test = check_array(X_test, ensure_all_finite=True)
@@ -50,4 +51,5 @@ class ModelTrainer:
         accuracy = accuracy_score(y_test, predictions)
         f1 = f1_score(y_test, predictions)
         roc_auc = roc_auc_score(y_test, prob_predictions)
-        return accuracy, f1, roc_auc, predictions
+        precision = precision_score(y_test, predictions, average='macro')  # Added precision metric
+        return accuracy, f1, roc_auc, precision, predictions

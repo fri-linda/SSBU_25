@@ -1,6 +1,6 @@
 from matplotlib import pyplot as plt
 from typing import Callable
-
+import os
 
 class BasePlotter:
     """Abstract base class for common plotting functionality."""
@@ -14,13 +14,12 @@ class BasePlotter:
         - args: Positional arguments for the plotting function.
         - kwargs: Keyword arguments for the plotting function.
         """
-        general_kwargs = {key: kwargs.pop(key, None) for key in ['title', 'xlabel', 'ylabel', 'xticks_rotation', 'yticks', 'yticklabels', 'xticks']}
+        general_kwargs = {key: kwargs.pop(key, None) for key in ['title', 'xlabel', 'ylabel', 'xticks_rotation', 'yticks', 'yticklabels', 'xticks', 'save_to_file']}
         plt.figure(figsize=kwargs.pop('figsize', (10, 6)))
         plot_func(*args, **kwargs)
         self.__apply_plot_labels(general_kwargs)
         plt.tight_layout()
-        plt.show()
-
+        plt.show()  # Display the plot
     def __apply_plot_labels(self, general_kwargs):
         """
         Applies labels and titles to a plot.
@@ -40,3 +39,10 @@ class BasePlotter:
             plt.xticks(ticks=general_kwargs['xticks'])
         if general_kwargs['yticks'] is not None and general_kwargs['yticklabels'] is not None:
             plt.yticks(ticks=general_kwargs['yticks'], labels=general_kwargs['yticklabels'])
+        save_to_file = general_kwargs['save_to_file']
+        if save_to_file:
+            # Ensure the directory exists
+            os.makedirs(os.path.dirname(save_to_file), exist_ok=True)
+            # Save the plot to the specified file
+            plt.savefig(save_to_file)
+            print(f"Plot saved to {save_to_file}")
