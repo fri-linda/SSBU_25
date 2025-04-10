@@ -1,0 +1,12 @@
+pridaný ML model
+    Random Forest
+        hodnoty
+            'n_estimators': [100, 200],
+            'max_depth': [None, 10, 20],
+            'min_samples_split': [2, 5]
+pridané metriky
+    Precision
+    Recall
+Interpretácia
+    Logistická regresia dosahuje vyššiu priemernú presnosť (0.975) a je konzistentnejšia ako Random Forest
+    Random Forest má nižší priemer (0.965) a väčšiu variabilitu, ale v niektorých replikáciách dosahuje vyššiu špičkovú presnosť (0.989)
