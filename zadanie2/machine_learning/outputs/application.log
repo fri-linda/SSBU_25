@@ -1,0 +1,773 @@
+2025-03-27 09:42:57,912 - INFO - Application started.
+2025-03-27 09:42:57,992 - INFO - Starting the experiment...
+2025-03-27 09:42:58,016 - INFO - Starting replication 1/10
+2025-03-27 09:43:02,771 - INFO - Starting replication 2/10
+2025-03-27 09:43:02,873 - INFO - Starting replication 3/10
+2025-03-27 09:43:02,954 - INFO - Starting replication 4/10
+2025-03-27 09:43:03,036 - INFO - Starting replication 5/10
+2025-03-27 09:43:03,118 - INFO - Starting replication 6/10
+2025-03-27 09:43:03,185 - INFO - Starting replication 7/10
+2025-03-27 09:43:03,274 - INFO - Starting replication 8/10
+2025-03-27 09:43:03,362 - INFO - Starting replication 9/10
+2025-03-27 09:43:03,467 - INFO - Starting replication 10/10
+2025-03-27 09:43:03,553 - INFO - Experiment completed successfully.
+2025-03-27 09:43:03,553 - INFO - Generating plots for the experiment results...
+2025-03-27 09:43:04,931 - INFO - Plots generated successfully.
+2025-03-27 09:43:04,931 - INFO - Application finished successfully.
+2025-04-10 02:52:36,224 - INFO - Application started.
+2025-04-10 02:52:36,280 - INFO - Starting the experiment...
+2025-04-10 02:52:36,297 - INFO - Starting replication 1/10
+2025-04-10 02:52:41,718 - INFO - Starting replication 2/10
+2025-04-10 02:52:41,786 - INFO - Starting replication 3/10
+2025-04-10 02:52:41,852 - INFO - Starting replication 4/10
+2025-04-10 02:52:41,927 - INFO - Starting replication 5/10
+2025-04-10 02:52:41,990 - INFO - Starting replication 6/10
+2025-04-10 02:52:42,043 - INFO - Starting replication 7/10
+2025-04-10 02:52:42,102 - INFO - Starting replication 8/10
+2025-04-10 02:52:42,164 - INFO - Starting replication 9/10
+2025-04-10 02:52:42,230 - INFO - Starting replication 10/10
+2025-04-10 02:52:42,292 - INFO - Experiment completed successfully.
+2025-04-10 02:52:42,292 - INFO - Generating plots for the experiment results...
+2025-04-10 02:52:43,909 - INFO - Plots generated successfully.
+2025-04-10 02:52:43,909 - INFO - Application finished successfully.
+2025-04-10 03:15:26,380 - INFO - Application started.
+2025-04-10 03:15:26,397 - INFO - Starting the experiment...
+2025-04-10 03:15:26,409 - INFO - Starting replication 1/10
+2025-04-10 03:15:34,192 - INFO - Starting replication 2/10
+2025-04-10 03:15:37,590 - INFO - Starting replication 3/10
+2025-04-10 03:15:41,098 - INFO - Starting replication 4/10
+2025-04-10 03:15:44,902 - INFO - Starting replication 5/10
+2025-04-10 03:15:48,638 - INFO - Starting replication 6/10
+2025-04-10 03:15:52,155 - INFO - Starting replication 7/10
+2025-04-10 03:15:55,654 - INFO - Starting replication 8/10
+2025-04-10 03:15:59,167 - INFO - Starting replication 9/10
+2025-04-10 03:16:02,893 - INFO - Starting replication 10/10
+2025-04-10 03:16:06,521 - INFO - Experiment completed successfully.
+2025-04-10 03:16:06,521 - INFO - Generating plots for the experiment results...
+2025-04-10 03:16:07,869 - INFO - Plots generated successfully.
+2025-04-10 03:16:07,869 - INFO - Application finished successfully.
+2025-04-10 04:14:00,181 - INFO - Application started.
+2025-04-10 04:14:00,199 - INFO - Starting the experiment...
+2025-04-10 04:14:00,211 - INFO - Starting replication 1/10
+2025-04-10 04:14:08,151 - INFO - Starting replication 2/10
+2025-04-10 04:14:11,718 - INFO - Starting replication 3/10
+2025-04-10 04:14:15,323 - INFO - Starting replication 4/10
+2025-04-10 04:14:19,307 - INFO - Starting replication 5/10
+2025-04-10 04:14:23,270 - INFO - Starting replication 6/10
+2025-04-10 04:14:26,982 - INFO - Starting replication 7/10
+2025-04-10 04:14:30,564 - INFO - Starting replication 8/10
+2025-04-10 04:14:34,071 - INFO - Starting replication 9/10
+2025-04-10 04:14:37,879 - INFO - Starting replication 10/10
+2025-04-10 04:14:41,773 - INFO - Experiment completed successfully.
+2025-04-10 04:14:41,773 - INFO - Generating plots for the experiment results...
+2025-04-10 04:14:43,538 - INFO - Plots generated successfully.
+2025-04-10 04:14:43,538 - INFO - Application finished successfully.
+2025-04-10 04:30:30,594 - INFO - Application started.
+2025-04-10 04:30:30,614 - INFO - Starting the experiment...
+2025-04-10 04:30:30,626 - INFO - Starting replication 1/10
+2025-04-10 04:30:38,613 - INFO - Starting replication 2/10
+2025-04-10 04:30:42,917 - INFO - Starting replication 3/10
+2025-04-10 04:30:46,633 - INFO - Starting replication 4/10
+2025-04-10 04:30:50,498 - INFO - Starting replication 5/10
+2025-04-10 04:30:55,244 - INFO - Starting replication 6/10
+2025-04-10 04:30:59,364 - INFO - Starting replication 7/10
+2025-04-10 04:31:03,582 - INFO - Starting replication 8/10
+2025-04-10 04:31:08,694 - INFO - Starting replication 9/10
+2025-04-10 04:31:13,662 - INFO - Starting replication 10/10
+2025-04-10 04:31:18,089 - INFO - Experiment completed successfully.
+2025-04-10 04:31:18,089 - INFO - Generating plots for the experiment results...
+2025-04-10 04:32:15,991 - INFO - Application started.
+2025-04-10 04:32:16,010 - INFO - Starting the experiment...
+2025-04-10 04:32:16,022 - INFO - Starting replication 1/10
+2025-04-10 04:32:24,229 - INFO - Starting replication 2/10
+2025-04-10 04:32:27,669 - INFO - Starting replication 3/10
+2025-04-10 04:32:31,456 - INFO - Starting replication 4/10
+2025-04-10 04:32:35,209 - INFO - Starting replication 5/10
+2025-04-10 04:32:38,762 - INFO - Starting replication 6/10
+2025-04-10 04:32:42,322 - INFO - Starting replication 7/10
+2025-04-10 04:32:45,960 - INFO - Starting replication 8/10
+2025-04-10 04:32:49,528 - INFO - Starting replication 9/10
+2025-04-10 04:32:53,161 - INFO - Starting replication 10/10
+2025-04-10 04:32:57,222 - INFO - Experiment completed successfully.
+2025-04-10 04:32:57,222 - INFO - Generating plots for the experiment results...
+2025-04-10 04:35:29,673 - INFO - Application started.
+2025-04-10 04:35:29,696 - INFO - Starting the experiment...
+2025-04-10 04:35:29,708 - INFO - Starting replication 1/10
+2025-04-10 04:35:39,481 - INFO - Starting replication 2/10
+2025-04-10 04:35:43,688 - INFO - Starting replication 3/10
+2025-04-10 04:35:47,956 - INFO - Starting replication 4/10
+2025-04-10 04:35:52,555 - INFO - Starting replication 5/10
+2025-04-10 04:35:56,696 - INFO - Starting replication 6/10
+2025-04-10 04:36:01,021 - INFO - Starting replication 7/10
+2025-04-10 04:36:05,106 - INFO - Starting replication 8/10
+2025-04-10 04:36:08,945 - INFO - Starting replication 9/10
+2025-04-10 04:36:13,526 - INFO - Starting replication 10/10
+2025-04-10 04:36:18,578 - INFO - Experiment completed successfully.
+2025-04-10 04:36:18,578 - INFO - Generating plots for the experiment results...
+2025-04-10 04:39:41,718 - INFO - Application started.
+2025-04-10 04:39:41,735 - INFO - Starting the experiment...
+2025-04-10 04:39:41,747 - INFO - Starting replication 1/10
+2025-04-10 04:39:50,378 - INFO - Starting replication 2/10
+2025-04-10 04:39:55,041 - INFO - Starting replication 3/10
+2025-04-10 04:39:58,756 - INFO - Starting replication 4/10
+2025-04-10 04:40:03,017 - INFO - Starting replication 5/10
+2025-04-10 04:40:07,522 - INFO - Starting replication 6/10
+2025-04-10 04:40:11,934 - INFO - Starting replication 7/10
+2025-04-10 04:40:16,157 - INFO - Starting replication 8/10
+2025-04-10 04:40:20,102 - INFO - Starting replication 9/10
+2025-04-10 04:40:24,405 - INFO - Starting replication 10/10
+2025-04-10 04:40:28,632 - INFO - Experiment completed successfully.
+2025-04-10 04:40:28,632 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9755244755244755,0.9754385964912281,0.9943759780907668,0.9755244755244755,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9685314685314685,0.9681978798586572,0.9896307165566154,0.9685054773082942,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.9755244755244755,0.975609756097561,0.9979461098342217,0.9755477308294209,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9755244755244755,0.974910394265233,0.996087062851553,0.9758617312965139,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,3,0.9755244755244755,0.9770491803278688,0.9910294117647058,0.9768283673971928,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.965034965034965,0.9621212121212122,0.9886973651809899,0.9643717135977198,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.986013986013986,0.9859154929577465,0.9991686228482003,0.9860133020344288,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9440559440559441,0.9402985074626866,0.9953017178094259,0.9469708191379055,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9685314685314685,0.968421052631579,0.9949119373776909,0.9687698703839569,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.972027972027972,0.9731543624161074,0.997107843137255,0.9717489228358793,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,6,0.9755244755244755,0.9764309764309764,0.9953995986883962,0.9759803921568628,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9685314685314685,0.967032967032967,0.9988983548766158,0.9690213392200147,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,7,0.9685314685314685,0.9698996655518395,0.9976485572919218,0.9686274509803922,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.958041958041958,0.959731543624161,0.9910841130652036,0.9579679615931025,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,8,0.9755244755244755,0.976271186440678,0.9974070450097847,0.9759222064370745,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.9615384615384616,0.9629629629629629,0.9940152072602404,0.9611545988258317,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,9,0.9825174825174825,0.9816849816849816,0.99789349924068,0.9826470588235294,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.965034965034965,0.9652777777777778,0.9938860357055515,0.965594871041942,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,10,0.972027972027972,0.9733333333333334,0.9951394344069129,0.9715041128084607,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9895104895104895,0.9890909090909091,0.9991427031793465,0.9893752448100275,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 04:40:28,678 - INFO - Results saved to outputs/application.log
+2025-04-10 04:40:30,678 - INFO - Plots generated successfully.
+2025-04-10 04:40:30,678 - INFO - Application finished successfully.
+2025-04-10 04:48:35,087 - INFO - Application started.
+2025-04-10 04:48:35,106 - INFO - Starting the experiment...
+2025-04-10 04:48:35,118 - INFO - Starting replication 1/10
+2025-04-10 04:48:43,177 - INFO - Starting replication 2/10
+2025-04-10 04:48:47,152 - INFO - Starting replication 3/10
+2025-04-10 04:48:51,380 - INFO - Starting replication 4/10
+2025-04-10 04:48:55,335 - INFO - Starting replication 5/10
+2025-04-10 04:48:58,852 - INFO - Starting replication 6/10
+2025-04-10 04:49:02,766 - INFO - Starting replication 7/10
+2025-04-10 04:49:06,905 - INFO - Starting replication 8/10
+2025-04-10 04:49:10,954 - INFO - Starting replication 9/10
+2025-04-10 04:49:15,130 - INFO - Starting replication 10/10
+2025-04-10 04:49:19,194 - INFO - Experiment completed successfully.
+2025-04-10 04:49:19,194 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.972027972027972,0.9738562091503268,0.9919607843137255,0.9737179487179488,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.972027972027972,0.9726027397260274,0.998677313476706,0.9720279720279721,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,2,0.958041958041958,0.9583333333333334,0.9933953033268101,0.9581377151799687,"{'C': 1, 'max_iter': 10000}"
+RandomForest,2,0.9615384615384616,0.96,0.9957421817647923,0.9619607843137254,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,3,0.9790209790209791,0.9781021897810219,0.9948491537895512,0.9786130279449909,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.972027972027972,0.971830985915493,0.9918084898278561,0.9720266040688577,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.9755244755244755,0.9743589743589743,0.9955359332842777,0.9751273012142577,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9545454545454546,0.9505703422053232,0.9925788954635109,0.9535849427490295,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9825174825174825,0.9811320754716981,0.9978846910665093,0.98218585679886,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9685314685314685,0.9686411149825784,0.9932990951332845,0.9688845401174169,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9790209790209791,0.9793103448275862,0.9954518779342724,0.9791585127201565,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.972027972027972,0.972027972027972,0.9960387323943664,0.9720755086071988,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.9895104895104895,0.988929889298893,0.9994117647058824,0.9896737797400049,"{'C': 1, 'max_iter': 10000}"
+RandomForest,7,0.9405594405594405,0.9399293286219081,0.9937111535261586,0.9423039215686274,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,8,0.9685314685314685,0.9696969696969697,0.9933865673835302,0.968370544457501,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.9685314685314685,0.9688581314878892,0.9949853228962817,0.9685314685314685,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,9,0.986013986013986,0.9859154929577465,0.9986304719980436,0.986013986013986,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9685314685314685,0.9694915254237289,0.9952073552425664,0.9698062300711308,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,10,0.9755244755244755,0.9757785467128027,0.9947672143974962,0.9759947144325356,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.965034965034965,0.9626865671641791,0.9967667662763925,0.9665599606008373,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}"
+2025-04-10 04:49:19,198 - INFO - Results saved to outputs/application.log
+2025-04-10 04:49:20,759 - INFO - Plots generated successfully.
+2025-04-10 04:49:20,759 - INFO - Application finished successfully.
+2025-04-10 04:51:47,417 - INFO - Application started.
+2025-04-10 04:51:47,436 - INFO - Starting the experiment...
+2025-04-10 04:51:47,450 - INFO - Starting replication 1/10
+2025-04-10 04:51:56,545 - INFO - Starting replication 2/10
+2025-04-10 04:51:59,972 - INFO - Starting replication 3/10
+2025-04-10 04:52:03,513 - INFO - Starting replication 4/10
+2025-04-10 04:52:07,281 - INFO - Starting replication 5/10
+2025-04-10 04:52:10,835 - INFO - Starting replication 6/10
+2025-04-10 04:52:14,597 - INFO - Starting replication 7/10
+2025-04-10 04:52:18,339 - INFO - Starting replication 8/10
+2025-04-10 04:52:22,078 - INFO - Starting replication 9/10
+2025-04-10 04:52:25,838 - INFO - Starting replication 10/10
+2025-04-10 04:52:30,064 - INFO - Experiment completed successfully.
+2025-04-10 04:52:30,065 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9895104895104895,0.9891696750902527,0.9997060696614902,0.9892857142857143,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9615384615384616,0.9641693811074918,0.9922737306843267,0.9628205128205127,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,2,0.993006993006993,0.9932432432432432,0.9988254294523564,0.9932885906040269,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9685314685314685,0.9686411149825784,0.9915154775294635,0.9685543818466353,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,3,0.972027972027972,0.9726027397260274,0.9895303326810176,0.9720156555772994,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.965034965034965,0.9675324675324676,0.9929971988795518,0.9653779857178035,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.9755244755244755,0.9735849056603774,0.9960059171597634,0.974466519499632,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9545454545454546,0.9584664536741214,0.9846400394477318,0.9544511924159385,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9755244755244755,0.9745454545454545,0.9947092539068241,0.9753721112416764,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.972027972027972,0.9710144927536232,0.9940266353309831,0.9719937328632982,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9685314685314685,0.9662921348314607,0.9951348960636887,0.9681853888452474,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9685314685314685,0.967741935483871,0.9915785350567959,0.9683785766691122,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,7,0.9615384615384616,0.9608540925266904,0.9951076320939334,0.9614820249449744,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9475524475524476,0.945054945054945,0.9865720738413197,0.9470219742573288,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,8,0.9790209790209791,0.9802631578947368,0.996415946582875,0.9789375490966221,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.972027972027972,0.9727891156462585,0.992337446141794,0.9718688845401174,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,9,0.9685314685314685,0.9710610932475884,0.9955322073841321,0.9709057594215817,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.965034965034965,0.9647887323943662,0.9914661580594679,0.9653131115459883,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,10,0.9790209790209791,0.9767441860465116,0.9979756085518194,0.9788179528958673,"{'C': 1, 'max_iter': 10000}"
+RandomForest,10,0.965034965034965,0.9666666666666667,0.9941575019638649,0.9645025460242851,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 04:52:30,068 - INFO - Results saved to outputs/application.log
+2025-04-10 04:52:31,684 - INFO - Plots generated successfully.
+2025-04-10 04:52:31,685 - INFO - Application finished successfully.
+2025-04-10 04:56:27,454 - INFO - Application started.
+2025-04-10 04:56:27,490 - INFO - Starting the experiment...
+2025-04-10 04:56:27,514 - INFO - Starting replication 1/10
+2025-04-10 04:56:37,317 - INFO - Starting replication 2/10
+2025-04-10 04:56:41,242 - INFO - Starting replication 3/10
+2025-04-10 04:56:45,221 - INFO - Starting replication 4/10
+2025-04-10 04:56:49,346 - INFO - Starting replication 5/10
+2025-04-10 04:56:53,472 - INFO - Starting replication 6/10
+2025-04-10 04:56:57,896 - INFO - Starting replication 7/10
+2025-04-10 04:57:01,922 - INFO - Starting replication 8/10
+2025-04-10 04:57:06,384 - INFO - Starting replication 9/10
+2025-04-10 04:57:11,416 - INFO - Starting replication 10/10
+2025-04-10 04:57:15,674 - INFO - Experiment completed successfully.
+2025-04-10 04:57:15,674 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.972027972027972,0.9726027397260274,0.9965753424657534,0.9720156555772994,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.958041958041958,0.9558823529411765,0.9907207384131972,0.9575009792401097,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,2,0.9895104895104895,0.9894736842105263,0.9986306729264476,0.9895104895104896,"{'C': 1, 'max_iter': 10000}"
+RandomForest,2,0.951048951048951,0.950354609929078,0.9959134733029902,0.9532499386804023,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,3,0.9790209790209791,0.9807692307692307,0.9953155818540433,0.9788461538461538,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9685314685314685,0.967741935483871,0.9986307398894811,0.9696568627450981,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,4,0.9685314685314685,0.9688581314878892,0.9924197965571204,0.9685742235265347,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.958041958041958,0.9568345323741008,0.9904843444227006,0.9582354093223658,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9895104895104895,0.9884169884169884,0.9996055226824457,0.9897546042561596,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9685314685314685,0.9690721649484536,0.9920961190231489,0.968456572769953,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,6,0.986013986013986,0.9863945578231292,0.9962337979946196,0.9865771812080537,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.9591836734693877,0.995397571484528,0.957876712328767,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,7,0.9755244755244755,0.9735849056603774,0.996310507674144,0.9751584844464101,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9790209790209791,0.9779411764705882,0.9988743698918416,0.9803921568627452,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,8,0.972027972027972,0.9727891156462585,0.9960830395613004,0.9718688845401174,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.965034965034965,0.9655172413793104,0.9924876425390301,0.965034965034965,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,9,0.965034965034965,0.9659863945578231,0.9926125244618396,0.9652369761065414,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9685314685314685,0.966542750929368,0.9942850134903115,0.9686272584446189,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,10,0.9790209790209791,0.9788732394366197,0.9956957691367083,0.979020979020979,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.965034965034965,0.9645390070921985,0.9951577402787968,0.9650281242357545,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 04:57:15,678 - INFO - Results saved to outputs/application.log
+2025-04-10 04:57:17,299 - INFO - Plots generated successfully.
+2025-04-10 04:57:17,299 - INFO - Application finished successfully.
+2025-04-10 04:59:33,537 - INFO - Application started.
+2025-04-10 04:59:33,557 - INFO - Starting the experiment...
+2025-04-10 04:59:33,570 - INFO - Starting replication 1/10
+2025-04-10 04:59:42,012 - INFO - Starting replication 2/10
+2025-04-10 04:59:45,490 - INFO - Starting replication 3/10
+2025-04-10 04:59:48,728 - INFO - Starting replication 4/10
+2025-04-10 04:59:52,555 - INFO - Starting replication 5/10
+2025-04-10 04:59:56,092 - INFO - Starting replication 6/10
+2025-04-10 04:59:59,840 - INFO - Starting replication 7/10
+2025-04-10 05:00:03,579 - INFO - Starting replication 8/10
+2025-04-10 05:00:07,231 - INFO - Starting replication 9/10
+2025-04-10 05:00:10,865 - INFO - Starting replication 10/10
+2025-04-10 05:00:15,029 - INFO - Experiment completed successfully.
+2025-04-10 05:00:15,030 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.986013986013986,0.9864864864864865,0.9988738738738738,0.9859968664316491,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9265734265734266,0.924187725631769,0.986797628961936,0.9263209393346379,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,2,0.9790209790209791,0.9794520547945206,0.9986786081339011,0.9789190511127415,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.972027972027972,0.9722222222222222,0.9947651663405088,0.97212441314554,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,3,0.972027972027972,0.9733333333333334,0.9949509803921569,0.9719607843137255,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9545454545454546,0.9589905362776026,0.991767207278481,0.9543653741395532,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.9755244755244755,0.9743589743589743,0.9979424876304316,0.9756372549019607,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9790209790209791,0.9788732394366197,0.9969680668981368,0.9791146979701638,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.972027972027972,0.972972972972973,0.9941780821917808,0.9726470588235294,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.951048951048951,0.95,0.9910889150019584,0.9509487480438185,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9825174825174825,0.9830508474576272,0.9907013164978221,0.9826184880532707,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9825174825174825,0.9816849816849816,0.9985773853323522,0.9821288679984332,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,7,0.9755244755244755,0.9754385964912281,0.9983373270086556,0.9755477308294209,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9685314685314685,0.9698996655518395,0.9954440797530986,0.9686274509803922,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,8,0.965034965034965,0.9640287769784173,0.9941213932298045,0.9648324773783321,"{'C': 1, 'max_iter': 10000}"
+RandomForest,8,0.965034965034965,0.9662162162162162,0.9977205882352942,0.9647260273972602,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,9,0.972027972027972,0.9716312056737588,0.9976525821596244,0.9721624266144814,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9615384615384616,0.9614035087719298,0.9956957691367083,0.9618884540117416,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9755244755244755,0.9761092150170648,0.9964762883570695,0.975440313111546,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9790209790209791,0.9782608695652174,0.9954195855582226,0.9788087897029315,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 05:00:15,033 - INFO - Results saved to outputs/application.log
+2025-04-10 05:00:16,602 - INFO - Plots generated successfully.
+2025-04-10 05:00:16,602 - INFO - Application finished successfully.
+2025-04-10 05:07:25,494 - INFO - Application started.
+2025-04-10 05:07:25,515 - INFO - Starting the experiment...
+2025-04-10 05:07:25,535 - INFO - Starting replication 1/10
+2025-04-10 05:07:33,943 - INFO - Starting replication 2/10
+2025-04-10 05:07:37,220 - INFO - Starting replication 3/10
+2025-04-10 05:07:41,129 - INFO - Starting replication 4/10
+2025-04-10 05:07:45,329 - INFO - Starting replication 5/10
+2025-04-10 05:07:50,076 - INFO - Starting replication 6/10
+2025-04-10 05:07:53,886 - INFO - Starting replication 7/10
+2025-04-10 05:07:58,064 - INFO - Starting replication 8/10
+2025-04-10 05:08:03,372 - INFO - Starting replication 9/10
+2025-04-10 05:08:08,047 - INFO - Starting replication 10/10
+2025-04-10 05:08:12,562 - INFO - Experiment completed successfully.
+2025-04-10 05:08:12,562 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9685314685314685,0.9686411149825784,0.9982381441785347,0.9695945945945945,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.958041958041958,0.9607843137254902,0.9885742427973405,0.9571253372577876,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.9755244755244755,0.9750889679715302,0.9967699309939804,0.9754499217527387,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9475524475524476,0.9494949494949495,0.9830545774647887,0.9495061182367683,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,3,0.9615384615384616,0.9619377162629758,0.99408255086072,0.9615798483736855,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9545454545454546,0.9537366548042705,0.9910736121301051,0.9545988258317026,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.958041958041958,0.9605263157894737,0.9874908020603386,0.958327190525333,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.965034965034965,0.965034965034965,0.9844239045383412,0.9650821596244132,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,5,0.958041958041958,0.9591836734693877,0.9936913145539906,0.9589705882352941,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9230769230769231,0.9236111111111112,0.9757255420153673,0.9233553436047934,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,6,0.9790209790209791,0.9785714285714285,0.9987275485733862,0.9789190511127415,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9755244755244755,0.974169741697417,0.9928966834860138,0.9760899450117831,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.972027972027972,0.9696969696969697,0.9874753451676529,0.9710329929300864,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9615384615384616,0.9616724738675958,0.9929091887133845,0.9615610328638498,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,8,0.951048951048951,0.9530201342281879,0.9946183953033267,0.9521798900235664,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.951048951048951,0.946969696969697,0.9908103592314119,0.9512927850283182,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,9,0.972027972027972,0.9726027397260274,0.99070813771518,0.9724833529181356,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9790209790209791,0.9777777777777777,0.9956862745098038,0.9793794186959937,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,10,0.9790209790209791,0.9801324503311258,0.9949921445404556,0.9786274509803922,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9615384615384616,0.9614035087719298,0.9913915382734165,0.9618884540117416,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 05:08:12,568 - INFO - Results saved to outputs/application.log
+2025-04-10 05:08:16,855 - INFO - Plots generated successfully.
+2025-04-10 05:08:16,855 - INFO - Application finished successfully.
+2025-04-10 05:23:15,516 - INFO - Application started.
+2025-04-10 05:23:15,534 - INFO - Starting the experiment...
+2025-04-10 05:23:15,546 - INFO - Starting replication 1/10
+2025-04-10 05:23:24,130 - INFO - Starting replication 2/10
+2025-04-10 05:23:27,501 - INFO - Starting replication 3/10
+2025-04-10 05:23:30,829 - INFO - Starting replication 4/10
+2025-04-10 05:23:34,658 - INFO - Starting replication 5/10
+2025-04-10 05:23:38,211 - INFO - Starting replication 6/10
+2025-04-10 05:23:41,794 - INFO - Starting replication 7/10
+2025-04-10 05:23:45,525 - INFO - Starting replication 8/10
+2025-04-10 05:23:49,083 - INFO - Starting replication 9/10
+2025-04-10 05:23:52,526 - INFO - Starting replication 10/10
+2025-04-10 05:23:56,302 - INFO - Experiment completed successfully.
+2025-04-10 05:23:56,302 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9755244755244755,0.9747292418772563,0.9932885906040267,0.975293542074364,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9685314685314685,0.9675090252707581,0.9922211350293543,0.9689168667025915,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.9825174825174825,0.9806949806949807,0.9993087443835481,0.9820512820512821,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9370629370629371,0.9361702127659575,0.9881651017214398,0.937720329024677,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,3,0.9615384615384616,0.9611307420494699,0.9948630136986302,0.9615384615384615,"{'C': 1, 'max_iter': 10000}"
+RandomForest,3,0.9790209790209791,0.9772727272727273,0.9940581854043393,0.978053809897879,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.9825174825174825,0.9826989619377162,0.9956966110812265,0.9827299412915851,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.951048951048951,0.9527027027027027,0.9841277617204722,0.9508148583174276,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9685314685314685,0.9690721649484536,0.9935938187686439,0.9691049745397572,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9685314685314685,0.9692832764505119,0.997871090882396,0.9684442270058709,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9895104895104895,0.9896907216494846,0.9974070450097847,0.9894595255563707,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.9586206896551724,0.9893590998043053,0.9579910015649452,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.9825174825174825,0.9834983498349835,0.9950453765023302,0.9826688923802043,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.965034965034965,0.9664429530201343,0.9949430479183032,0.9645792563600782,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,8,0.9790209790209791,0.9784172661870504,0.997894633764199,0.9788649706457926,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.9440559440559441,0.9407407407407408,0.9878341918077018,0.9438803041452049,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,9,0.9685314685314685,0.9688581314878892,0.9927121545610174,0.9685054773082942,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9615384615384616,0.9568627450980393,0.9960921943448825,0.9591972420586062,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9755244755244755,0.9764309764309764,0.9974019607843138,0.9752116674007733,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.951048951048951,0.9507042253521126,0.9921373634448636,0.9519894288650712,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+2025-04-10 05:23:56,307 - INFO - Results saved to outputs/application.log
+2025-04-10 05:25:25,906 - INFO - Application started.
+2025-04-10 05:25:25,923 - INFO - Starting the experiment...
+2025-04-10 05:25:25,935 - INFO - Starting replication 1/10
+2025-04-10 05:25:34,426 - INFO - Starting replication 2/10
+2025-04-10 05:25:38,182 - INFO - Starting replication 3/10
+2025-04-10 05:25:42,184 - INFO - Starting replication 4/10
+2025-04-10 05:25:46,042 - INFO - Starting replication 5/10
+2025-04-10 05:25:49,933 - INFO - Starting replication 6/10
+2025-04-10 05:25:53,403 - INFO - Starting replication 7/10
+2025-04-10 05:25:57,002 - INFO - Starting replication 8/10
+2025-04-10 05:26:00,892 - INFO - Starting replication 9/10
+2025-04-10 05:26:05,153 - INFO - Starting replication 10/10
+2025-04-10 05:26:08,995 - INFO - Experiment completed successfully.
+2025-04-10 05:26:08,996 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.965034965034965,0.9668874172185431,0.9937208731910718,0.964925190090753,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.965034965034965,0.9659863945578231,0.9890862819948123,0.9650075857681202,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,2,0.9755244755244755,0.9745454545454545,0.9974036153431637,0.9753721112416764,"{'C': 1, 'max_iter': 10000}"
+RandomForest,2,0.972027972027972,0.9727891156462585,0.9906237759498628,0.9718688845401174,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,3,0.9545454545454546,0.9516728624535316,0.9893250688705235,0.9537304658795865,"{'C': 1, 'max_iter': 10000}"
+RandomForest,3,0.965034965034965,0.9647887323943662,0.9885079955010025,0.9651259476644656,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.972027972027972,0.9689922480620154,0.9980743593541698,0.971757270527823,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9685314685314685,0.9672727272727273,0.998826291079812,0.9705882352941176,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.993006993006993,0.9932885906040269,0.9965236976106542,0.9933333333333334,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9685314685314685,0.9692832764505119,0.9920763022743947,0.9688601645123385,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,6,0.9755244755244755,0.9754385964912281,0.9984837368549768,0.9755966353677621,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.972027972027972,0.9736842105263158,0.9935982339955851,0.9723819352302324,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,7,0.9685314685314685,0.9688581314878892,0.9965277777777778,0.9685742235265347,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.951048951048951,0.9533333333333334,0.994317346788811,0.9512877115526122,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,8,0.9755244755244755,0.975609756097561,0.9917318982387475,0.9761904761904762,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.9545454545454546,0.9556313993174061,0.9891389432485322,0.9546077423775265,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,9,0.9790209790209791,0.9790209790209791,0.9945218879921741,0.979212521398875,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9755244755244755,0.9754385964912281,0.9971386647101982,0.9758806262230919,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,10,0.9790209790209791,0.9774436090225563,0.998327430145612,0.9784956794972506,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.972027972027972,0.972027972027972,0.9965272682807531,0.972218146246026,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 05:26:08,999 - INFO - Results saved to outputs/application.log
+2025-04-10 05:33:42,869 - INFO - Application started.
+2025-04-10 05:33:42,886 - INFO - Starting the experiment...
+2025-04-10 05:33:42,898 - INFO - Starting replication 1/10
+2025-04-10 05:33:52,537 - INFO - Starting replication 2/10
+2025-04-10 05:33:55,907 - INFO - Starting replication 3/10
+2025-04-10 05:33:59,730 - INFO - Starting replication 4/10
+2025-04-10 05:34:04,119 - INFO - Starting replication 5/10
+2025-04-10 05:34:08,083 - INFO - Starting replication 6/10
+2025-04-10 05:34:11,839 - INFO - Starting replication 7/10
+2025-04-10 05:34:15,736 - INFO - Starting replication 8/10
+2025-04-10 05:34:19,653 - INFO - Starting replication 9/10
+2025-04-10 05:34:23,552 - INFO - Starting replication 10/10
+2025-04-10 05:34:27,656 - INFO - Experiment completed successfully.
+2025-04-10 05:34:27,656 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.972027972027972,0.9731543624161074,0.9951527614571093,0.9723039215686274,"{'C': 1, 'max_iter': 10000}"
+RandomForest,1,0.9475524475524476,0.9473684210526315,0.9959868839622179,0.9485898942420682,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,2,0.9755244755244755,0.9771986970684039,0.9973435655253837,0.9751584844464101,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9825174825174825,0.9819494584837545,0.998825831702544,0.9829275461715574,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,3,0.972027972027972,0.9733333333333334,0.9903921568627451,0.9719607843137255,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9790209790209791,0.9785714285714285,0.9937866927592955,0.9790117416829746,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.9615384615384616,0.9629629629629629,0.9963307240704501,0.9623988226637232,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.972027972027972,0.9699248120300752,0.9954340141398271,0.9724025974025974,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,5,0.986013986013986,0.9866666666666667,0.9961299172096214,0.9863625214618592,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.965034965034965,0.9655172413793104,0.9907819453273998,0.9653991092840013,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,6,0.972027972027972,0.9724137931034482,0.9967233959311423,0.9721624266144814,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.9574468085106383,0.993103448275862,0.9580337490829054,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,7,0.972027972027972,0.9710144927536232,0.9954378219278881,0.97172902910247,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9615384615384616,0.959409594095941,0.9933719560094266,0.9610297359525792,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,8,0.9615384615384616,0.9614035087719298,0.9967710371819961,0.9621935104977243,"{'C': 1, 'max_iter': 10000}"
+RandomForest,8,0.972027972027972,0.9724137931034482,0.9966250917094643,0.9720224993886035,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,9,0.9790209790209791,0.9807692307692307,0.9942800788954635,0.9788461538461538,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.965034965034965,0.9609375,0.992470251320792,0.9653840439756352,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9790209790209791,0.9788732394366197,0.9989239422841771,0.979020979020979,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9825174825174825,0.981549815498155,0.9925782589526282,0.9831107619795758,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 05:34:27,660 - INFO - Results saved to outputs/application.log
+2025-04-10 05:34:29,617 - INFO - Plots generated successfully.
+2025-04-10 05:34:29,618 - INFO - Application finished successfully.
+2025-04-10 05:37:47,116 - INFO - Application started.
+2025-04-10 05:37:47,133 - INFO - Starting the experiment...
+2025-04-10 05:37:47,147 - INFO - Starting replication 1/10
+2025-04-10 05:37:55,870 - INFO - Starting replication 2/10
+2025-04-10 05:37:59,630 - INFO - Starting replication 3/10
+2025-04-10 05:38:03,836 - INFO - Starting replication 4/10
+2025-04-10 05:38:07,909 - INFO - Starting replication 5/10
+2025-04-10 05:38:11,646 - INFO - Starting replication 6/10
+2025-04-10 05:38:15,138 - INFO - Starting replication 7/10
+2025-04-10 05:38:18,566 - INFO - Starting replication 8/10
+2025-04-10 05:38:22,544 - INFO - Starting replication 9/10
+2025-04-10 05:38:27,118 - INFO - Starting replication 10/10
+2025-04-10 05:38:30,973 - INFO - Experiment completed successfully.
+2025-04-10 05:38:30,973 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.972027972027972,0.9716312056737588,0.9965766823161188,0.9721624266144814,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9475524475524476,0.9458483754512635,0.9910154719937329,0.94741349777321,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.972027972027972,0.9738562091503268,0.9976331360946745,0.9709313725490196,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.972027972027972,0.9705882352941176,0.990888159506197,0.9723325974981605,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,3,0.9615384615384616,0.959409594095941,0.9912526414074402,0.960879357618488,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.972027972027972,0.972027972027972,0.9969185619955979,0.972218146246026,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.9755244755244755,0.9764309764309764,0.9914872798434442,0.9764287466274222,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9685314685314685,0.9719626168224299,0.9974206349206349,0.968472049689441,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,5,0.9685314685314685,0.9690721649484536,0.9909001956947163,0.9684764000978234,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.9545454545454546,0.9550173010380623,0.9949139280125195,0.9545854732208364,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,6,0.9825174825174825,0.9812734082397003,0.9954788933117107,0.9822270227808327,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9615384615384616,0.9597069597069597,0.9960755457444199,0.9611241676459068,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.958041958041958,0.9602649006622517,0.9966231096755249,0.9601083476976113,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9615384615384616,0.9632107023411371,0.9992129083038173,0.9610907312301296,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,8,0.9790209790209791,0.9779411764705882,0.9930282796543598,0.9785056795926361,"{'C': 1, 'max_iter': 10000}"
+RandomForest,8,0.972027972027972,0.9716312056737588,0.9896735672686341,0.9720279720279721,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,9,0.9825174825174825,0.9818181818181818,0.9963258707686278,0.982373678025852,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9755244755244755,0.9745454545454545,0.9955708902265943,0.9759803921568628,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9790209790209791,0.9805194805194806,0.9940102120974077,0.9801282051282052,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.958041958041958,0.9574468085106383,0.9931017612524462,0.9579910015649452,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 05:38:30,977 - INFO - Results saved to outputs/application.log
+2025-04-10 05:44:28,295 - INFO - Application started.
+2025-04-10 05:44:28,313 - INFO - Starting the experiment...
+2025-04-10 05:44:28,324 - INFO - Starting replication 1/10
+2025-04-10 05:44:37,165 - INFO - Starting replication 2/10
+2025-04-10 05:44:40,969 - INFO - Starting replication 3/10
+2025-04-10 05:44:44,407 - INFO - Starting replication 4/10
+2025-04-10 05:44:47,905 - INFO - Starting replication 5/10
+2025-04-10 05:44:51,242 - INFO - Starting replication 6/10
+2025-04-10 05:44:55,106 - INFO - Starting replication 7/10
+2025-04-10 05:44:59,302 - INFO - Starting replication 8/10
+2025-04-10 05:45:03,328 - INFO - Starting replication 9/10
+2025-04-10 05:45:06,994 - INFO - Starting replication 10/10
+2025-04-10 05:45:10,972 - INFO - Experiment completed successfully.
+2025-04-10 05:45:10,972 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9790209790209791,0.9805194805194806,0.999163715072806,0.9788961038961039,"{'C': 1, 'max_iter': 10000}"
+RandomForest,1,0.9755244755244755,0.9750889679715302,0.9979949139280124,0.9757989526745949,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.9790209790209791,0.9787234042553191,0.99495913473303,0.979020979020979,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9790209790209791,0.9785714285714285,0.9921205892428915,0.9789190511127415,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,3,0.9790209790209791,0.9798657718120806,0.9980404644099349,0.9789839807965512,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.965034965034965,0.9647887323943662,0.9962343505477309,0.9650332550860721,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,4,0.9790209790209791,0.9793103448275862,0.9982394366197184,0.9791585127201565,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9685314685314685,0.9675090252707581,0.9980190755685987,0.9693137254901961,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9790209790209791,0.9797297297297297,0.9950058754406581,0.9789952996474736,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.965034965034965,0.9671052631578947,0.9896651610369207,0.9648959151610369,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9685314685314685,0.9690721649484536,0.9930558951537973,0.9691049745397572,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9475524475524476,0.9454545454545454,0.9927103718199608,0.9483688987000245,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,7,0.9790209790209791,0.9769230769230769,0.9951118352836616,0.9782812115242551,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.965034965034965,0.9664429530201343,0.9977415553809899,0.9645792563600782,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,8,0.9825174825174825,0.9831649831649831,0.9980904817861339,0.9826336158330475,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.9545454545454546,0.9509433962264151,0.9918246737256833,0.9537018853102907,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,9,0.9825174825174825,0.9825783972125436,0.9922241784037559,0.9825174825174825,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9685314685314685,0.966542750929368,0.9970321314692175,0.9686272584446189,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9895104895104895,0.9895470383275261,0.9966744913928013,0.9896551724137931,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.972027972027972,0.96875,0.990234375,0.9717167721518987,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 05:45:10,979 - INFO - Results saved to outputs/application.log
+2025-04-10 05:50:52,899 - INFO - Application started.
+2025-04-10 05:50:52,916 - INFO - Starting the experiment...
+2025-04-10 05:50:52,927 - INFO - Starting replication 1/10
+2025-04-10 05:51:01,201 - INFO - Starting replication 2/10
+2025-04-10 05:51:04,632 - INFO - Starting replication 3/10
+2025-04-10 05:51:08,444 - INFO - Starting replication 4/10
+2025-04-10 05:51:12,063 - INFO - Starting replication 5/10
+2025-04-10 05:51:15,615 - INFO - Starting replication 6/10
+2025-04-10 05:51:19,153 - INFO - Starting replication 7/10
+2025-04-10 05:51:22,688 - INFO - Starting replication 8/10
+2025-04-10 05:51:26,083 - INFO - Starting replication 9/10
+2025-04-10 05:51:29,834 - INFO - Starting replication 10/10
+2025-04-10 05:51:33,915 - INFO - Experiment completed successfully.
+2025-04-10 05:51:33,915 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.972027972027972,0.9746835443037974,0.9915680473372781,0.973313492063492,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9685314685314685,0.9723076923076923,0.9958016793282687,0.9666832298136645,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.951048951048951,0.9513888888888888,0.9917828319882611,0.951048951048951,"{'C': 1, 'max_iter': 10000}"
+RandomForest,2,0.951048951048951,0.9517241379310345,0.9878698948398141,0.9521383432126587,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,3,0.9790209790209791,0.9807692307692307,0.9950806768988587,0.9802709651898734,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9685314685314685,0.9690721649484536,0.9987752902562093,0.9687010954616588,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.9755244755244755,0.9767441860465116,0.9974019607843138,0.9756438557763061,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9545454545454546,0.9556313993174061,0.9912426614481409,0.9546077423775265,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,5,0.9825174825174825,0.9828178694158075,0.9936424100156495,0.982797435520971,"{'C': 1, 'max_iter': 10000}"
+RandomForest,5,0.972027972027972,0.9712230215827338,0.9946876224050137,0.9718688845401174,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,6,0.9755244755244755,0.9765886287625418,0.9966705836271054,0.9760363012018641,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.9548872180451128,0.9928589017483379,0.9571253372577876,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,7,0.9895104895104895,0.9901639344262295,0.9961213668499607,0.9897046537913411,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9755244755244755,0.9747292418772563,0.9986780258519388,0.9754074291587138,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,8,0.9755244755244755,0.9750889679715302,0.9973091976516634,0.9754707752506725,"{'C': 1, 'max_iter': 10000}"
+RandomForest,8,0.965034965034965,0.9664429530201343,0.9975472160902624,0.9646160622522391,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,9,0.972027972027972,0.972027972027972,0.9973098557104426,0.972218146246026,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9615384615384616,0.9588014981273408,0.9938629222309505,0.9615951643815421,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,10,0.986013986013986,0.9846153846153847,0.998224852071006,0.985897435897436,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.972027972027972,0.9696969696969697,0.9973487824037706,0.9730769230769232,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+2025-04-10 05:51:33,919 - INFO - Results saved to outputs/application.log
+2025-04-10 06:02:07,681 - INFO - Application started.
+2025-04-10 06:02:07,698 - INFO - Starting the experiment...
+2025-04-10 06:02:07,709 - INFO - Starting replication 1/10
+2025-04-10 06:02:16,206 - INFO - Starting replication 2/10
+2025-04-10 06:02:19,882 - INFO - Starting replication 3/10
+2025-04-10 06:02:23,498 - INFO - Starting replication 4/10
+2025-04-10 06:02:26,783 - INFO - Starting replication 5/10
+2025-04-10 06:02:30,258 - INFO - Starting replication 6/10
+2025-04-10 06:02:34,185 - INFO - Starting replication 7/10
+2025-04-10 06:02:37,722 - INFO - Starting replication 8/10
+2025-04-10 06:02:41,468 - INFO - Starting replication 9/10
+2025-04-10 06:02:45,293 - INFO - Starting replication 10/10
+2025-04-10 06:02:49,001 - INFO - Experiment completed successfully.
+2025-04-10 06:02:49,001 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9790209790209791,0.9797297297297297,0.9987759498629064,0.9789952996474736,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.972027972027972,0.971830985915493,0.9932022691705791,0.9720266040688577,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,2,0.972027972027972,0.972027972027972,0.9955007824726135,0.9720755086071988,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9615384615384616,0.9634551495016611,0.9948154700476682,0.960879357618488,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,3,0.9825174825174825,0.9811320754716981,0.997737111373475,0.98218585679886,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9615384615384616,0.9611307420494699,0.9851797505502569,0.9615121283255086,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,4,0.9825174825174825,0.9824561403508771,0.9964299687010955,0.9825174825174825,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9615384615384616,0.9619377162629758,0.9914906103286385,0.9619977487397837,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,5,0.965034965034965,0.9668874172185431,0.9955813040062844,0.9646078431372549,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.958041958041958,0.9583333333333334,0.981587441314554,0.958317025440313,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,6,0.965034965034965,0.9655172413793104,0.9940816825629738,0.9661490226816245,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.959731543624161,0.9952941176470589,0.9577457892675284,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,7,0.9755244755244755,0.9747292418772563,0.9980404644099348,0.975293542074364,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.972027972027972,0.9703703703703703,0.9981639247943597,0.9734848484848485,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,8,0.972027972027972,0.9724137931034482,0.9976526969533962,0.9723975921303774,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.965034965034965,0.9642857142857143,0.9934442270058709,0.9650195694716243,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,9,0.9755244755244755,0.9750889679715302,0.9970156555772994,0.9754707752506725,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9685314685314685,0.968421052631579,0.9944248826291079,0.9686720469552458,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,10,0.965034965034965,0.9637681159420289,0.9942114299730194,0.9647346539496209,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9615384615384616,0.9608540925266904,0.9919311457772997,0.9621034077555817,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 06:02:49,005 - INFO - Results saved to outputs/application.log
+2025-04-10 06:02:51,032 - INFO - Plots generated successfully.
+2025-04-10 06:02:51,032 - INFO - Application finished successfully.
+2025-04-10 06:13:23,087 - INFO - Application started.
+2025-04-10 06:13:23,118 - INFO - Starting the experiment with 10 replications...
+2025-04-10 06:14:44,725 - INFO - Application started.
+2025-04-10 06:14:44,744 - INFO - Starting the experiment with 10 replications...
+2025-04-10 06:14:44,758 - INFO - Starting replication 1/10
+2025-04-10 06:14:53,028 - INFO - Starting replication 2/10
+2025-04-10 06:14:56,421 - INFO - Starting replication 3/10
+2025-04-10 06:14:59,865 - INFO - Starting replication 4/10
+2025-04-10 06:15:03,422 - INFO - Starting replication 5/10
+2025-04-10 06:15:07,148 - INFO - Starting replication 6/10
+2025-04-10 06:15:10,707 - INFO - Starting replication 7/10
+2025-04-10 06:15:14,788 - INFO - Starting replication 8/10
+2025-04-10 06:15:18,205 - INFO - Starting replication 9/10
+2025-04-10 06:15:21,607 - INFO - Starting replication 10/10
+2025-04-10 06:15:25,718 - INFO - Experiment completed successfully.
+2025-04-10 06:15:25,718 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.965034965034965,0.9657534246575342,0.9958914159941307,0.9652033475260607,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.9685314685314685,0.9702970297029703,0.9920343137254903,0.9691139613740233,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,2,0.9790209790209791,0.9791666666666666,0.9974081862193751,0.9791146979701638,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.9545454545454546,0.9509433962264151,0.9882541245998522,0.9537018853102907,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,3,0.9895104895104895,0.9893992932862191,0.9959882583170254,0.9895104895104896,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9790209790209791,0.9803921568627451,0.9970321314692174,0.9800541738488058,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,4,0.965034965034965,0.9647887323943662,0.9905125195618153,0.9650332550860721,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.9615384615384616,0.9584905660377359,0.9834592406063298,0.9602450980392156,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,5,0.9790209790209791,0.9785714285714285,0.9971125140703763,0.9789190511127415,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.972027972027972,0.9722222222222222,0.9942784488239034,0.9721203228173148,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,6,0.965034965034965,0.967948717948718,0.9844373307067225,0.9653878437762307,"{'C': 10, 'max_iter': 10000}"
+RandomForest,6,0.9685314685314685,0.9672727272727273,0.9972103949493467,0.9689705882352941,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.986013986013986,0.9858156028368794,0.9994131455399061,0.9861545988258318,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9755244755244755,0.9745454545454545,0.999192759295499,0.9764287466274222,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,8,0.9755244755244755,0.9752650176678446,0.9954518779342723,0.9755685986793836,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.965034965034965,0.9662162162162162,0.9919903982756088,0.9648118240101796,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,9,0.9615384615384616,0.9616724738675958,0.9934467918622848,0.9615384615384615,"{'C': 10, 'max_iter': 10000}"
+RandomForest,9,0.9755244755244755,0.975609756097561,0.9983373270086557,0.9755477308294209,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,10,0.9685314685314685,0.9692832764505119,0.992811384419776,0.9696568627450981,"{'C': 10, 'max_iter': 10000}"
+RandomForest,10,0.9790209790209791,0.9787234042553191,0.9981402632995644,0.979020979020979,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 06:15:25,724 - INFO - Results saved to outputs/application.log
+2025-04-10 06:15:27,915 - INFO - Plots generated successfully.
+2025-04-10 06:15:27,916 - INFO - Application finished successfully.
+2025-04-10 06:16:04,618 - INFO - Application started.
+2025-04-10 06:16:04,636 - INFO - Starting the experiment with 50 replications...
+2025-04-10 06:16:04,648 - INFO - Starting replication 1/50
+2025-04-10 06:16:13,505 - INFO - Starting replication 2/50
+2025-04-10 06:16:17,464 - INFO - Starting replication 3/50
+2025-04-10 06:16:21,421 - INFO - Starting replication 4/50
+2025-04-10 06:16:25,357 - INFO - Starting replication 5/50
+2025-04-10 06:16:28,932 - INFO - Starting replication 6/50
+2025-04-10 06:16:32,376 - INFO - Starting replication 7/50
+2025-04-10 06:16:36,389 - INFO - Starting replication 8/50
+2025-04-10 06:16:40,441 - INFO - Starting replication 9/50
+2025-04-10 06:16:44,517 - INFO - Starting replication 10/50
+2025-04-10 06:16:49,097 - INFO - Starting replication 11/50
+2025-04-10 06:16:52,989 - INFO - Starting replication 12/50
+2025-04-10 06:16:57,088 - INFO - Starting replication 13/50
+2025-04-10 06:17:01,012 - INFO - Starting replication 14/50
+2025-04-10 06:17:05,126 - INFO - Starting replication 15/50
+2025-04-10 06:17:08,809 - INFO - Starting replication 16/50
+2025-04-10 06:17:12,955 - INFO - Starting replication 17/50
+2025-04-10 06:17:17,238 - INFO - Starting replication 18/50
+2025-04-10 06:17:21,354 - INFO - Starting replication 19/50
+2025-04-10 06:17:25,229 - INFO - Starting replication 20/50
+2025-04-10 06:17:29,125 - INFO - Starting replication 21/50
+2025-04-10 06:17:33,297 - INFO - Starting replication 22/50
+2025-04-10 06:17:37,509 - INFO - Starting replication 23/50
+2025-04-10 06:17:42,427 - INFO - Starting replication 24/50
+2025-04-10 06:17:46,869 - INFO - Starting replication 25/50
+2025-04-10 06:17:51,035 - INFO - Starting replication 26/50
+2025-04-10 06:17:55,060 - INFO - Starting replication 27/50
+2025-04-10 06:17:59,004 - INFO - Starting replication 28/50
+2025-04-10 06:18:03,037 - INFO - Starting replication 29/50
+2025-04-10 06:18:07,067 - INFO - Starting replication 30/50
+2025-04-10 06:18:11,034 - INFO - Starting replication 31/50
+2025-04-10 06:18:15,134 - INFO - Starting replication 32/50
+2025-04-10 06:18:19,377 - INFO - Starting replication 33/50
+2025-04-10 06:18:24,134 - INFO - Starting replication 34/50
+2025-04-10 06:18:28,687 - INFO - Starting replication 35/50
+2025-04-10 06:18:33,011 - INFO - Starting replication 36/50
+2025-04-10 06:18:37,051 - INFO - Starting replication 37/50
+2025-04-10 06:18:41,295 - INFO - Starting replication 38/50
+2025-04-10 06:18:46,126 - INFO - Starting replication 39/50
+2025-04-10 06:18:50,163 - INFO - Starting replication 40/50
+2025-04-10 06:18:54,596 - INFO - Starting replication 41/50
+2025-04-10 06:18:59,203 - INFO - Starting replication 42/50
+2025-04-10 06:19:03,715 - INFO - Starting replication 43/50
+2025-04-10 06:19:08,405 - INFO - Starting replication 44/50
+2025-04-10 06:19:12,689 - INFO - Starting replication 45/50
+2025-04-10 06:19:16,958 - INFO - Starting replication 46/50
+2025-04-10 06:19:21,062 - INFO - Starting replication 47/50
+2025-04-10 06:19:25,249 - INFO - Starting replication 48/50
+2025-04-10 06:19:29,274 - INFO - Starting replication 49/50
+2025-04-10 06:19:33,516 - INFO - Starting replication 50/50
+2025-04-10 06:19:38,221 - INFO - Experiment completed successfully.
+2025-04-10 06:19:38,221 - INFO - Generating plots for the experiment results...
+Logistic Regression,1,0.9685314685314685,0.9686411149825784,0.9961365414710485,0.9685314685314685,"{'C': 10, 'max_iter': 10000}"
+RandomForest,1,0.986013986013986,0.9868421052631579,0.9974999999999999,0.987012987012987,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,2,0.958041958041958,0.9583333333333334,0.9846447259034672,0.9581315725116165,"{'C': 10, 'max_iter': 10000}"
+RandomForest,2,0.986013986013986,0.9861111111111112,0.9989239422841771,0.986013986013986,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,3,0.9615384615384616,0.9602888086642599,0.9894607843137254,0.961286378087552,"{'C': 10, 'max_iter': 10000}"
+RandomForest,3,0.9615384615384616,0.9621993127147767,0.9907411943369421,0.9617077464788732,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,4,0.9825174825174825,0.9825783972125436,0.9978971048513302,0.982660797260944,"{'C': 10, 'max_iter': 10000}"
+RandomForest,4,0.972027972027972,0.971830985915493,0.9982147224260212,0.9725933538883179,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,5,0.9755244755244755,0.9767441860465116,0.9968664316490404,0.9766327583665044,"{'C': 10, 'max_iter': 10000}"
+RandomForest,5,0.958041958041958,0.9612903225806452,0.994139374538291,0.957744397931544,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,6,0.9790209790209791,0.9788732394366197,0.9977989728539985,0.979020979020979,"{'C': 1, 'max_iter': 10000}"
+RandomForest,6,0.958041958041958,0.9571428571428572,0.9916617762128326,0.9584802193497846,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,7,0.9615384615384616,0.9602888086642599,0.9933930406695053,0.9616137877007442,"{'C': 10, 'max_iter': 10000}"
+RandomForest,7,0.9790209790209791,0.9769230769230769,0.9965882120253164,0.9778138528138529,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,8,0.9615384615384616,0.9636963696369637,0.9885857051878705,0.9626623376623377,"{'C': 10, 'max_iter': 10000}"
+RandomForest,8,0.972027972027972,0.9724137931034482,0.9976997993441982,0.9720279720279721,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,9,0.965034965034965,0.9673202614379085,0.9905548996458088,0.9644540455616654,"{'C': 1, 'max_iter': 10000}"
+RandomForest,9,0.965034965034965,0.9640287769784173,0.991829745596869,0.9652369761065414,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,10,0.9615384615384616,0.962457337883959,0.9895833333333334,0.9631837135148393,"{'C': 1, 'max_iter': 10000}"
+RandomForest,10,0.9685314685314685,0.967741935483871,0.9951772424598513,0.9683785766691122,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,11,0.965034965034965,0.9618320610687023,0.9894022681127124,0.963355408388521,"{'C': 10, 'max_iter': 10000}"
+RandomForest,11,0.972027972027972,0.972027972027972,0.9953044754218636,0.972218146246026,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,12,0.9755244755244755,0.972972972972973,0.9954080876907125,0.975,"{'C': 10, 'max_iter': 10000}"
+RandomForest,12,0.965034965034965,0.965034965034965,0.9937393005624847,0.9652237710931768,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,13,0.9685314685314685,0.966542750929368,0.9918990573448546,0.9682364483688987,"{'C': 1, 'max_iter': 10000}"
+RandomForest,13,0.9790209790209791,0.9785714285714285,0.9977005870841488,0.9790117416829746,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,14,0.972027972027972,0.972972972972973,0.9882093933463797,0.9726470588235294,"{'C': 10, 'max_iter': 10000}"
+RandomForest,14,0.9685314685314685,0.9688581314878892,0.9969656927519208,0.9686521909233177,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,15,0.9685314685314685,0.967032967032967,0.9947549019607843,0.968329006025572,"{'C': 1, 'max_iter': 10000}"
+RandomForest,15,0.958041958041958,0.958904109589041,0.9966442953020134,0.9580419580419581,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,16,0.986013986013986,0.9846153846153847,0.9989631165753222,0.9853238118689978,"{'C': 10, 'max_iter': 10000}"
+RandomForest,16,0.9545454545454546,0.9562289562289562,0.9952236319992162,0.95436741088915,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,17,0.9755244755244755,0.975609756097561,0.9888503105286323,0.9755477308294209,"{'C': 10, 'max_iter': 10000}"
+RandomForest,17,0.9545454545454546,0.9562289562289562,0.9946189001916556,0.9543231611893583,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,18,0.986013986013986,0.9858156028368794,0.9988750305698215,0.9860112496943018,"{'C': 10, 'max_iter': 10000}"
+RandomForest,18,0.9685314685314685,0.9672727272727273,0.994656862745098,0.9682131845543973,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,19,0.9895104895104895,0.9893992932862191,0.999168500855955,0.989485524256651,"{'C': 10, 'max_iter': 10000}"
+RandomForest,19,0.9545454545454546,0.953405017921147,0.9963805331376864,0.9548570309439874,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,20,0.9755244755244755,0.9750889679715302,0.9965252287965546,0.9754499217527387,"{'C': 10, 'max_iter': 10000}"
+RandomForest,20,0.965034965034965,0.9659863945578231,0.9952506854680768,0.9648727984344423,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,21,0.972027972027972,0.9746835443037974,0.9973831037377179,0.9724657059377012,"{'C': 10, 'max_iter': 10000}"
+RandomForest,21,0.9615384615384616,0.959409594095941,0.9970606966149023,0.9620483110761979,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,22,0.9685314685314685,0.9710610932475884,0.9961538461538462,0.9680128047278995,"{'C': 10, 'max_iter': 10000}"
+RandomForest,22,0.9685314685314685,0.9694915254237289,0.9907216999608304,0.9684089463123379,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,23,0.9685314685314685,0.9681978798586572,0.9973098557104427,0.9685054773082942,"{'C': 10, 'max_iter': 10000}"
+RandomForest,23,0.9685314685314685,0.966542750929368,0.9940441176470588,0.9691139613740233,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,24,0.9755244755244755,0.9747292418772563,0.9953506582489111,0.9756169212690953,"{'C': 10, 'max_iter': 10000}"
+RandomForest,24,0.9475524475524476,0.9469964664310954,0.9895104895104895,0.9477495107632095,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,25,0.9895104895104895,0.989247311827957,0.998825831702544,0.9896001566094064,"{'C': 10, 'max_iter': 10000}"
+RandomForest,25,0.9685314685314685,0.966542750929368,0.9975735294117647,0.9691139613740233,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,26,0.9790209790209791,0.9776119402985075,0.9971057149865098,0.9794093075826822,"{'C': 10, 'max_iter': 10000}"
+RandomForest,26,0.9825174825174825,0.9816849816849816,0.9950735294117646,0.9823396854945379,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,27,0.9895104895104895,0.9901639344262295,0.9967105263157895,0.9897046537913411,"{'C': 10, 'max_iter': 10000}"
+RandomForest,27,0.9615384615384616,0.9602888086642599,0.9881448096801059,0.9613013698630137,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,28,0.9790209790209791,0.9787234042553191,0.9950058754406581,0.9791666666666667,"{'C': 1, 'max_iter': 10000}"
+RandomForest,28,0.9615384615384616,0.9629629629629629,0.995683100318862,0.9611545988258317,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,29,0.9790209790209791,0.9787234042553191,0.9968188714334655,0.979020979020979,"{'C': 10, 'max_iter': 10000}"
+RandomForest,29,0.958041958041958,0.959731543624161,0.9978397486252946,0.9575831702544031,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,30,0.965034965034965,0.9655172413793104,0.9918317437026167,0.9661490226816245,"{'C': 10, 'max_iter': 10000}"
+RandomForest,30,0.965034965034965,0.9645390070921985,0.9933463796477495,0.9649843505477308,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,31,0.972027972027972,0.9743589743589743,0.9962031558185405,0.9717948717948718,"{'C': 10, 'max_iter': 10000}"
+RandomForest,31,0.9790209790209791,0.9784172661870504,0.9941046966731898,0.9792401096748924,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,32,0.9790209790209791,0.9790209790209791,0.9966257518705071,0.9790209790209791,"{'C': 10, 'max_iter': 10000}"
+RandomForest,32,0.965034965034965,0.9640287769784173,0.9968199608610567,0.9652369761065414,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,33,0.986013986013986,0.9852941176470589,0.9950000000000001,0.9859803921568628,"{'C': 1, 'max_iter': 10000}"
+RandomForest,33,0.965034965034965,0.9659863945578231,0.996009596553075,0.9648727984344423,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,34,0.972027972027972,0.9726027397260274,0.9950570156120002,0.9719246759598923,"{'C': 10, 'max_iter': 10000}"
+RandomForest,34,0.965034965034965,0.965034965034965,0.9915150625978091,0.9650821596244132,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,35,0.9755244755244755,0.9764309764309764,0.9967195456325891,0.9756282760985646,"{'C': 10, 'max_iter': 10000}"
+RandomForest,35,0.9615384615384616,0.9632107023411371,0.9937009803921568,0.9613236662910891,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,36,0.9685314685314685,0.9679715302491103,0.9916311848480399,0.968456572769953,"{'C': 10, 'max_iter': 10000}"
+RandomForest,36,0.9475524475524476,0.945054945054945,0.9852869173521347,0.9479764532744666,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,37,0.9790209790209791,0.9782608695652174,0.9903055229142185,0.9789952996474736,"{'C': 10, 'max_iter': 10000}"
+RandomForest,37,0.9755244755244755,0.9759450171821306,0.9930789924186842,0.975587084148728,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,38,0.9685314685314685,0.966789667896679,0.9942556952081697,0.9680350756870622,"{'C': 10, 'max_iter': 10000}"
+RandomForest,38,0.9685314685314685,0.9694915254237289,0.9949569134351743,0.9684089463123379,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,39,0.972027972027972,0.9727891156462585,0.9920763022743947,0.9725665017390879,"{'C': 10, 'max_iter': 10000}"
+RandomForest,39,0.972027972027972,0.9708029197080292,0.9920988258317026,0.9732423409269442,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,40,0.9755244755244755,0.9759450171821306,0.997211350293542,0.9754707752506725,"{'C': 10, 'max_iter': 10000}"
+RandomForest,40,0.9615384615384616,0.9605734767025089,0.9976019184652277,0.9614481409001957,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,41,0.9755244755244755,0.9764309764309764,0.9954512105649304,0.9769736842105263,"{'C': 10, 'max_iter': 10000}"
+RandomForest,41,0.958041958041958,0.9617834394904459,0.9970878136200717,0.9556657501963866,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,42,0.9825174825174825,0.9822064056939501,0.9987275485733862,0.9824432707355243,"{'C': 10, 'max_iter': 10000}"
+RandomForest,42,0.958041958041958,0.958041958041958,0.989607785602504,0.9580888106416275,"{'max_depth': 20, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,43,0.9895104895104895,0.9897610921501706,0.9993148338472079,0.9894324853228963,"{'C': 10, 'max_iter': 10000}"
+RandomForest,43,0.9615384615384616,0.9616724738675958,0.994131455399061,0.9615384615384615,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,44,0.9790209790209791,0.9793103448275862,0.9939847417840376,0.9791585127201565,"{'C': 10, 'max_iter': 10000}"
+RandomForest,44,0.972027972027972,0.9726027397260274,0.9929305283757338,0.9720156555772994,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,45,0.986013986013986,0.9844961240310077,0.9948155828766109,0.9858786352639115,"{'C': 10, 'max_iter': 10000}"
+RandomForest,45,0.9755244755244755,0.974910394265233,0.9924631723192875,0.975440313111546,"{'max_depth': None, 'min_samples_split': 5, 'n_estimators': 100}"
+Logistic Regression,46,0.9545454545454546,0.9523809523809523,0.9942443919716647,0.9540963560772805,"{'C': 10, 'max_iter': 10000}"
+RandomForest,46,0.958041958041958,0.9568345323741008,0.99662558685446,0.9589705882352941,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 50}"
+Logistic Regression,47,0.9790209790209791,0.9794520547945206,0.9986301369863014,0.9790117416829746,"{'C': 10, 'max_iter': 10000}"
+RandomForest,47,0.951048951048951,0.9481481481481482,0.9953155818540433,0.9502935420743639,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 100}"
+Logistic Regression,48,0.965034965034965,0.9618320610687023,0.9965930973189158,0.9638802889576883,"{'C': 10, 'max_iter': 10000}"
+RandomForest,48,0.9755244755244755,0.9761092150170648,0.9971369842901189,0.975440313111546,"{'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,49,0.972027972027972,0.9712230215827338,0.9939287113200157,0.9718688845401174,"{'C': 10, 'max_iter': 10000}"
+RandomForest,49,0.958041958041958,0.9612903225806452,0.9957737480957296,0.9590184170246383,"{'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 50}"
+Logistic Regression,50,0.986013986013986,0.9859154929577465,0.9995598591549296,0.9863013698630136,"{'C': 10, 'max_iter': 10000}"
+RandomForest,50,0.958041958041958,0.9555555555555556,0.9914000687994495,0.9573801009160829,"{'max_depth': None, 'min_samples_split': 2, 'n_estimators': 50}"
+2025-04-10 06:19:38,226 - INFO - Results saved to outputs/application.log
+2025-04-10 06:19:40,536 - INFO - Plots generated successfully.
+2025-04-10 06:19:40,536 - INFO - Application finished successfully.
