@@ -10,7 +10,8 @@ Dataset obsahuje údaje matky, dcéry a dvoch strýkov, ktorí sú bratmi muža,
 
 **Formulujte hypotézy pre riešenie úlohy:**
 
-#TODO
+H 0 - muž je otcom dieťaťa (príbuzná so strýkami)
+H alt - muž nie je otcom dieťaťa (dieťa nie je príbuzná so strýkami)
 
 ### Úloha 2 (4b)
 
@@ -18,4 +19,9 @@ Vykonajte analýzu pomocou nástroja FamLinkX. Ako referenčnú databázu použi
 
 **Uveďte LR a pravdepodobnosť (W) pre jednotlivé hypotézy a Váš záver analýzy:**
 
-#TODO
+LR (H0) - 7,04264
+
+W (H0): 7,04264 / (7,04264 + 1) = 0,99999986 => 99,999986 %
+W (H alt): 1 - 0,99999986 = 0,00000014 %
+
+Záver: prijímam nulovú hypotézu. S 99,99 % pravdepodobnosťou je muž otcom dieťaťa
