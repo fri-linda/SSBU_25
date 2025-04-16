@@ -5,15 +5,15 @@ from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import StratifiedKFold, train_test_split
 import os
 
-
 from data.data_handling_refactored import DatasetRefactored
 from models.model_optimizer import ModelOptimizer
 from models.model_trainer import ModelTrainer
 
+
 class Experiment:
     """A class to handle the entire experiment of training and evaluating models."""
 
-    def __init__(self, models, models_params, n_replications=10, logger=None):
+    def __init__(self, models, models_params, n_replications=5, logger=None):
         """
         Initialize the Experiment with models, their parameters, and number of replications.
 
@@ -36,7 +36,7 @@ class Experiment:
     def __initialize_csv_file(self):
         """Initialize the CSV file with headers."""
         with open(self.accuracies_file, 'w') as file:
-            file.write("Model,Replication,Accuracy,F1 Score,ROC AUC,Best Parameters\n")
+            file.write("Model,Replication,Accuracy,F1 Score,ROC AUC,Precision,Best Parameters\n")  # NEW
 
     def run(self, X, y):
         """Run the experiment over multiple replications."""
@@ -55,7 +55,7 @@ class Experiment:
         else:
             print(f"Starting replication {replication + 1}/{self.n_replications}.")
         X_resampled, y_resampled = self.__balance_dataset(X, y)
-        
+
         for model_name in self.models_params.keys():
             self.__train_and_evaluate_model(model_name, X_resampled, y_resampled, replication)
 
@@ -82,12 +82,13 @@ class Experiment:
 
         # train and evaluate the model
         trainer.train(X_train, y_train)
-        accuracy, f1, roc_auc, predictions = trainer.evaluate(X_test, y_test)
+        # Získanie novej metriky precision zo metódy evaluate  #NEW
+        accuracy, f1, roc_auc, precision, predictions = trainer.evaluate(X_test, y_test)  # NEW
 
-        self.__store_results(model_name, replication, accuracy, f1, roc_auc, best_params)
+        self.__store_results(model_name, replication, accuracy, f1, roc_auc, precision, best_params)  # NEW
         self.replication_conf_matrices[model_name].append(confusion_matrix(y_test, predictions))
 
-    def __store_results(self, model_name, replication, accuracy, f1, roc_auc, best_params):
+    def __store_results(self, model_name, replication, accuracy, f1, roc_auc, precision, best_params):  # NEW
         """Store the results of a single evaluation."""
         new_row = pd.DataFrame({
             'model': model_name,
@@ -95,15 +96,17 @@ class Experiment:
             'accuracy': accuracy,
             'f1_score': f1,
             'roc_auc': roc_auc,
+            'precision': precision,  # NEW
             'best_params': [best_params]
         })
         self.results = pd.concat([self.results, new_row], ignore_index=True)
 
         # append the results to the CSV file
         with open(self.accuracies_file, 'a') as file:
-            file.write(f"{model_name},{replication + 1},{accuracy:.4f},{f1:.4f},{roc_auc:.4f},\"{best_params}\"\n")
+            file.write(
+                f"{model_name},{replication + 1},{accuracy:.4f},{f1:.4f},{roc_auc:.4f},{precision:.4f},\"{best_params}\"\n")  # NEW
 
     def __calculate_mean_conf_matrices(self):
-        """Calculate the mean confusion matrisx for each model."""
+        """Calculate the mean confusion matrix for each model."""
         return {model_name: np.mean(np.array(matrices), axis=0)
                 for model_name, matrices in self.replication_conf_matrices.items()}

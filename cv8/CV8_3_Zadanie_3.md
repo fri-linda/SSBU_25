@@ -10,7 +10,10 @@ Dataset obsahuje údaje matky, dcéry a dvoch strýkov, ktorí sú bratmi muža,
 
 **Formulujte hypotézy pre riešenie úlohy:**
 
-#TODO
+Hypotéza H0 (príbuzenská hypotéza):
+Testované osoby sú biologicky príbuzné dieťaťu, sú to jeho strýkovia.
+Hypotéza HA (nepríbuzenská hypotéza):
+Testované osoby nie sú biologicky príbuzné dieťaťu, nie sú to jeho strýkovia.
 
 ### Úloha 2 (4b)
 
@@ -18,4 +21,10 @@ Vykonajte analýzu pomocou nástroja FamLinkX. Ako referenčnú databázu použi
 
 **Uveďte LR a pravdepodobnosť (W) pre jednotlivé hypotézy a Váš záver analýzy:**
 
-#TODO
+LR = 7042640
+W = 7042640 / 7042641 = 0.999999858
+
+Hypotéza H0 – že testované osoby sú biologickými strýkami dieťaťa – je silne podporená genetickými údajmi, 
+pričom vypočítané LR (v poriadku miliónov) a následná pravdepodobnosť blížiaca sa 100 % dokazujú jej správnosť.
+
+Hypotéza HA – že medzi osobami neexistuje biologický príbuzenský vzťah – je na základe týchto výsledkov vyvrátená.

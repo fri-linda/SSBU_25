@@ -1,6 +1,7 @@
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
-from sklearn.utils.validation import check_X_y, check_array
+# model_trainer.py
 
+from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, precision_score  #NEW
+from sklearn.utils.validation import check_X_y, check_array
 
 class ModelTrainer:
     """A class for training and evaluating machine learning models."""
@@ -40,14 +41,18 @@ class ModelTrainer:
         - accuracy: float, accuracy of the model on the test data.
         - f1: float, F1 score of the model on the test data.
         - roc_auc: float, ROC AUC of the model on the test data.
+        - precision: float, Precision of the model on the test data.  #NEW
         - predictions: array, predicted labels for the test data.
         """
         X_test = check_array(X_test, ensure_all_finite=True)
         y_test = check_array(y_test, ensure_2d=False, ensure_all_finite=True)
         predictions = self.model.predict(X_test)
-        prob_predictions = self.model.predict_proba(X_test)[:, 1] if hasattr(self.model, "predict_proba") else [0] * len(
-            y_test)
+        if hasattr(self.model, "predict_proba"):
+            prob_predictions = self.model.predict_proba(X_test)[:, 1]
+        else:
+            prob_predictions = [0] * len(y_test)
         accuracy = accuracy_score(y_test, predictions)
         f1 = f1_score(y_test, predictions)
         roc_auc = roc_auc_score(y_test, prob_predictions)
-        return accuracy, f1, roc_auc, predictions
+        precision = precision_score(y_test, predictions)  #NEW
+        return accuracy, f1, roc_auc, precision, predictions  #NEW
