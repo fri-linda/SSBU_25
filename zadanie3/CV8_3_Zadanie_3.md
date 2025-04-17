@@ -26,6 +26,6 @@ Vykonajte analýzu pomocou nástroja FamLinkX. Ako referenčnú databázu použi
 #TODO
 
     LR = 7.043e+006  a W = 0.99999986
-    tým pádom vieme povedať že hypotéza H0 bola prijatá s pravdepodobnosťou = 99,999986% čo je skoro 100% prvdepodobnosť
+    tým pádom vieme povedať že hypotéza H0 bola prijatá s pravdepodobnosťou = 99,999986% čo je skoro 100% pravdepodobnosť
     a pravdepodobnosť alternatívnej hypotézy bola 0,000014% čo je veľmi malá pravdepodobnosť
     Záver potvrdili sme H0 a prímame hypotézu H0 ako pravdivé
