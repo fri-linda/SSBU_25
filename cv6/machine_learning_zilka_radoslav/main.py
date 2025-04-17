@@ -1,4 +1,8 @@
 import warnings
+import matplotlib.pyplot as plt
+import os
+
+from sklearn.neighbors import KNeighborsClassifier
 
 # Suppress specific FutureWarnings from scikit-learn
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -6,7 +10,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 from sklearn.linear_model import LogisticRegression
 from data.data_handling_refactored import DatasetRefactored
 from experiment.experiment import Experiment
-from plotting.experiment_plotter import ExperimentPlotter
+from cv6.machine_learning_zilka_radoslav.plotting.experiment_plotter import ExperimentPlotter
 from utils.logger import Logger
 
 
@@ -19,10 +23,16 @@ def initialize_models_and_params():
     - param_grids: dict, dictionary of hyperparameter grids.
     """
     models = {
-        "Logistic Regression": LogisticRegression(solver='liblinear')
+        "Logistic Regression": LogisticRegression(solver='liblinear'),
+        "K-Nearest Neighbors": KNeighborsClassifier(),
     }
     param_grids = {
-        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]}
+        "Logistic Regression": {"C": [0.1, 1, 10], "max_iter": [10000]},
+        "K-Nearest Neighbors": {
+            "n_neighbors": [3, 5, 7],
+            "weights": ['uniform', 'distance'],
+            "algorithm": ["auto", "ball_tree", "kd_tree", "brute"],
+        }
     }
     return models, param_grids
 
@@ -42,7 +52,9 @@ def run_experiment(dataset, models, param_grids, logger):
     - results: DataFrame, the results of the experiment.
     """
     logger.info("Starting the experiment...")
-    experiment = Experiment(models, param_grids, logger=logger)
+    # Set the number of replications to a higher value
+    n_replications = 120     # You can adjust this number as needed
+    experiment = Experiment(models, param_grids, n_replications=n_replications, logger=logger)
     results = experiment.run(dataset.data, dataset.target)
     logger.info("Experiment completed successfully.")
     return experiment, results
@@ -65,6 +77,9 @@ def plot_results(experiment, results, logger):
         'Accuracy per Replication and Average Accuracy', 'Accuracy')
     plotter.plot_confusion_matrices(experiment.mean_conf_matrices)
     plotter.print_best_parameters(results)
+    plotter.plot_recall_over_replications(
+        experiment.results.groupby('model')['recall'].apply(list).to_dict()
+    )
     logger.info("Plots generated successfully.")
 
 
@@ -84,7 +99,6 @@ def main():
     plot_results(experiment, results, logger)
 
     logger.info("Application finished successfully.")
-
 
 if __name__ == "__main__":
     main()
