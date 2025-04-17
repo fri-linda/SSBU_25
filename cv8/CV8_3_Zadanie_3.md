@@ -11,6 +11,11 @@ Dataset obsahuje údaje matky, dcéry a dvoch strýkov, ktorí sú bratmi muža,
 **Formulujte hypotézy pre riešenie úlohy:**
 
 #TODO
+    
+    Matka je matkou dieťaťa 
+    Dvaja strýkova sú bratia 
+    Hypotéza trtí brat je otcom dieťaťa
+    alternatívna hypotéza je že nie je otcom dieťaťa
 
 ### Úloha 2 (4b)
 
