@@ -10,7 +10,8 @@ Dataset obsahuje údaje matky, dcéry a dvoch strýkov, ktorí sú bratmi muža,
 
 **Formulujte hypotézy pre riešenie úlohy:**
 
-#TODO
+H(0) - strykovia sú príbuzní dieťaťu
+H(1) - strýkovia nie sú príbuzní dieťaťu
 
 ### Úloha 2 (4b)
 
@@ -18,4 +19,11 @@ Vykonajte analýzu pomocou nástroja FamLinkX. Ako referenčnú databázu použi
 
 **Uveďte LR a pravdepodobnosť (W) pre jednotlivé hypotézy a Váš záver analýzy:**
 
-#TODO
+LR[H(0)] => 7 042 640
+W[H(0)] = 0.99999
+
+LR[H(1)] => 1.419922e-007 -> 0.0000001419922
+W[H(1)] = 1.41992179838218e-7
+
+Dieta je príbuzné strýkom. H(0) nezamietam => otec je s veľkou pravdepodobnosťou autorom dieťaťa.
+
