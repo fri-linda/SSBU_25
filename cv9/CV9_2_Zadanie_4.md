@@ -17,9 +17,9 @@ Normalizujte distribúciu datasetu (pre premenné aj vzorku).
 (Vyberte akúkoľvek kombináciu operácií, ktorá je podľa Vás najlepšia).
 
 **Ktoré operácie ste pri normalizácii použili?**
-Sample normalization: # TODO
-Data Transformation:  # TODO
-Data Scaling:         # TODO
+Sample normalization: By median
+Data Transformation:  Square root normalization
+Data Scaling:         Auto scaling
 ### Úloha 2 (4b)
 
 Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, correlations, PCA, PLS-DA, Dendrogram, Heatmap, K-means, RandomForest, ..) 
@@ -27,10 +27,10 @@ Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, 
 **Uveďte aspoň 4 skutočnosti (z 4 rôznych metód), ktoré ste zistili analýzou datasetu:**
 
 (Napr. Pri použití pearsonovho korelačného koeficientu je najvyššia pozitívna korelácia medzi premennými x a y, a koeficient korelácie je 0.992.)
-1: # TODO
-2: # TODO
-3: # TODO
-4: # TODO
+1: Pri použití T-testu s extremne nízkou hodnotou 1.0E-6 je 12 signifikantnych parametrou, co znamena že tieto premenne vysoko pravdepodobne suvisia so sledovanym javom
+2: Pouzitim PLSD sa dali jednotlive skupiny dobre extrahovat, kde Component 1 bol najsilnejsi separačný faktor 
+3: Pri použití pearsonovho korelačného koeficientu je najvyššia negatívna korelácia medzi premennými Bin 0.86 a Bin 7.66, a koeficient korelácie je -0.761
+4: Pri použití spearmanovej vzdialenosti a Wardovho clusterovho algoritmu sa vzorky takmer spravne rozdelili na zdravych a chorych.
 
 Vygenerujte report z vykonanej analýzy a celý výsledný zip file odovzdajte ako prílohu k riešeniu zadania.
 
