@@ -17,9 +17,9 @@ Normalizujte distribúciu datasetu (pre premenné aj vzorku).
 (Vyberte akúkoľvek kombináciu operácií, ktorá je podľa Vás najlepšia).
 
 **Ktoré operácie ste pri normalizácii použili?**
-Sample normalization: # TODO
-Data Transformation:  # TODO
-Data Scaling:         # TODO
+Sample normalization: normalization by median # TODO pravdepodobnost na druhej strane tretieho zadania (v doc) a W je pravdepodobnost v materialoch
+Data Transformation:  square root transformation # TODO
+Data Scaling:         auto scaling # TODO
 ### Úloha 2 (4b)
 
 Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, correlations, PCA, PLS-DA, Dendrogram, Heatmap, K-means, RandomForest, ..) 
@@ -27,10 +27,24 @@ Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, 
 **Uveďte aspoň 4 skutočnosti (z 4 rôznych metód), ktoré ste zistili analýzou datasetu:**
 
 (Napr. Pri použití pearsonovho korelačného koeficientu je najvyššia pozitívna korelácia medzi premennými x a y, a koeficient korelácie je 0.992.)
-1: # TODO
-2: # TODO
-3: # TODO
-4: # TODO
+1: # TODO Partial Least Squares Discriminant Analysis (PLS-DA)
+    - podľa 2D scores plot vidíme že pacienti sú oddelený od kontrolnej skupiny vo vlastných zhlukoch
+![img_2.png](img_2.png)
+2: # TODO Hierarchical Clustering Dendrogram
+    - podľa dendrogramu vidíme že pacienti sú oddelený od kontrolnej skupiny vo vlastných zhlukoch
+    - Distance Measure: Pearson
+    - Clustering Algorithm: Average
+![img_3.png](img_3.png)
+3: # TODO Hierarchical Clustering Heatmaps
+    - vyjadruje expresiu génov skupín patient zelenou a control fialovou
+    - zobrazenie na top 5, červená - vyššia hodnota, modrá - nižšia hodnota, rozsah od -1,7 do 2,5
+    - pacientske vzorky (P0) sa zhlukujú spolu a majú vyššiu expresiu pri niektorých génoch, napríklad Bin 8.74, 0.82, 0.94 oproti kontrolným vzorkám (C0)
+    - na druhej strane kontrolné vzorky (C0) majú vyššiu expresiu pri niektorých génoch, napríklad Bin 2.54 a 2.70 oproti pacientským vzorkám (P0)
+    - kontrolné vzorky (C0) 
+![img.png](img.png)
+4: # TODO Orthogonal PLS-DA
+    - podľa 2D scores plot vidíme že pacienti sú oddelený od kontrolnej skupiny vo vlastných zhlukoch
+![img_4.png](img_4.png)
 
 Vygenerujte report z vykonanej analýzy a celý výsledný zip file odovzdajte ako prílohu k riešeniu zadania.
 
