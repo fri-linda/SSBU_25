@@ -34,7 +34,7 @@
 - Chronogram - Strom, v ktorom vetva predstavuje čas evolúcie.
 
 ##### Tvorba fylogenetických stromov (Základné kroky)
-1. Vyberte sekvencie, ktoré chcete zahrnúť do stromu (napr. vo formáte BLAST).
+1. Vyberte sekvencie, ktoré chcete zahrnúť do stromu (napr. vo formáte FASTA).
 2. Zarovnajte sekvencie pomocou softvérových nástrojov (napr. CLUSTAL, MUSCLE, T-Coffee alebo Galaxy).
 3. Odhadnite zostavenie stromu:
     - pomocou matice vzdialeností - porovnanie vzdialeností medzi sekvenciami
@@ -107,20 +107,20 @@
 
 - Vyhľadávanie rozšírení v Galaxy:
   
-<img src="../t6_cv5/data/galaxy1.png" width="30%"/>
+<img src="data/galaxy1.png" width="30%"/>
 
 - História operácií vykonaných v Galaxy
     - Napr. nahratie údajov, spracovanie, analýza, ..
     - Možnosť pomenovať históriu
     - <ins>Sivá</ins> farba - čakajúca operácia, <ins>Žltá</ins> - prebiehajúca, <ins>Červená</ins> - neúspešná, <ins>Zelená</ins> - úspešná 
   
-<img src="../t6_cv5/data/galaxy2.png" width="30%"/>
+<img src="data/galaxy2.png" width="30%"/>
 
 #### MAFFT
 
 - Použite nástroj MAFFT na zarovnanie DNA sekvencií
 
-<img src="../t6_cv5/data/galaxy3.png" width="30%"/>
+<img src="data/galaxy3.png" width="30%"/>
 
 - V parametroch nastavte generovanie jednej alebo viacerých MSAs (Multiple Sequence Alignment).
 - Ako vstupné dáta nahrajte súbor `exon7-unaligned.fst` z priečinku `input`. (Upload Data pod vyhľadávaním). (viac o exónoch: https://www.genome.gov/genetics-glossary/Exon)
@@ -128,51 +128,51 @@
 - Typ sekvencie môžete nechať na auto-detect.
 - Ako algoritmus pre spracovanie vyberte FFT-NS-2.
 
-<img src="../t6_cv5/data/galaxy5.png" width="100%"/>
+<img src="data/galaxy5.png" width="100%"/>
 
 - Výstup zarovnania nastavte na formát FASTA a spustite proces zarovnania sekvencií.
   
-<img src="../t6_cv5/data/galaxy6.png" width="100%"/>
+<img src="data/galaxy6.png" width="100%"/>
 
 - V histórii by ste mali vidieť načítaný dataset a tiež spustenie MAFFT operácie. 
  
-<img src="../t6_cv5/data/galaxy7.png" width="30%"/>
+<img src="data/galaxy7.png" width="30%"/>
 
 - Po dokončení a rozkliknuti výsledku vidíte náhľad výsledku a možnosti ďalších operácií (ikony, napr. Uloženie výsledku). Z týchto ikon použite ikonu pre Vizualizáciu (5. zľava).
 
-<img src="../t6_cv5/data/galaxy8.png" width="30%"/>
+<img src="data/galaxy8.png" width="30%"/>
 
 - Mali by sa Vám zobraziť dostupné rozšírenia nástroja Galaxy, ktoré sú schopné vytvoriť vizualizáciu z daného výsledku vo vybranom formáte. Vyberte nástroj `Multiple Sequence Alignment`. 
 
-<img src="../t6_cv5/data/galaxy9.png" width="100%"/>
+<img src="data/galaxy9.png" width="100%"/>
 
 - Vo vizualizačnom nástroji sekvencie zoraďte pomocou `Sorting` podľa 'Seq'. Mali by ste dostať rovnaké výsledky ako na nasledujúcom obrázku. (Skontrolujte názov organizmov a posun v prvých pár sekvenciách).
   
-<img src="../t6_cv5/data/galaxy9.1.png" width="100%"/>
+<img src="data/galaxy9.1.png" width="100%"/>
 
 #### IQ-TREE
 
 - Ďalej vyhľadajte nástroj IQ-TREE, ktorý slúži na vytvorenie fylogenetických stromov.
 
-<img src="../t6_cv5/data/galaxy10.png" width="30%"/>
+<img src="data/galaxy10.png" width="30%"/>
 
 - Ako vstupný súbor zarovnaných sekvencií vyberte výsledok operácie MAFFT, ostatné parametre môžete nechať prázdne, alebo na prednastavených hodnotách. Spustite proces vytvárania stromu.
   
-<img src="../t6_cv5/data/galaxy11.png" width="100%"/>
+<img src="data/galaxy11.png" width="100%"/>
 
-<img src="../t6_cv5/data/galaxy12.png" width="100%"/>
+<img src="data/galaxy12.png" width="100%"/>
 
 - Spustia sa Vám procesy pre vytvorenie fylogenetického stromu pomocou niekoľkých metód.
 
-<img src="../t6_cv5/data/galaxy13.png" width="30%"/>
+<img src="data/galaxy13.png" width="30%"/>
 
 - Vyberte strom vytvorený pomocou MaxLikelihood (Metóda Maximálnej Vierohodnosti) a zobrazte nástroje v ktorých ho môžete vizualizovať. Otvorte strom v niektorom z vizualizačných nástrojov.
 
-<img src="../t6_cv5/data/galaxy14.png" width="100%"/>
+<img src="data/galaxy14.png" width="100%"/>
 
 - V strome môžete skontrolovať vetvenie a závislosti (napr. organizmy začínajúce rovnakým názvom by mali byť v rovnakej vetve a byť v blízkom zhluku).
 
-<img src="../t6_cv5/data/galaxy15.png" width="100%"/>
+<img src="data/galaxy15.png" width="100%"/>
    
 ### Nástroj iTOL (Interactive Tree of Life)
 
@@ -184,17 +184,28 @@
 
 + Strom života - niektoré základné druhy organizmov
   
-<img src="../t6_cv5/data/itol1.png" width="100%"/>
+<img src="data/itol1.png" width="100%"/>
 
 - Na pravej strane sa nachádza panel s nastaveniami vizualizácie stromu, kde viete nastavovať vizuálne prvky. Kliknutím pomocou pravého tlačidla myši viete manipulovať so štruktúrou stromu.
 - Skúste napr. vymazať vetvu baktérií, zmeniť typ grafu na hranatý, zobraziť veľkosť genómu pre každý organizmus a pod.
   
-<img src="../t6_cv5/data/itol2.png" width="50%"/>
+<img src="data/itol2.png" width="50%"/>
 
 - Nakoniec môžete upravený strom exportovať, napr. vo formáte SVG alebo PDF. 
 
-<img src="../t6_cv5/data/itol3.png" width="40%"/>
+<img src="data/itol3.png" width="40%"/>
 
+### Nástroj Blast
+
+- Nástroj na porovnávanie sekvencií
+- dostupný na - https://blast.ncbi.nlm.nih.gov/Blast.cgi
+- Zadanie typu porovnania (nukleotidové alebo proteínové sekvencie)
+- Zadanie parametrov porovnania (napr. E-hodnota, počet sekvencií)
+- Výber Nukleotidových sekvencií
+- Nahratie súboru s údajmi (napr. FASTA)
+- Pomenovanie Jobu
+- Výsledky porovnania: taxonómia, predpovedané organizmy, podobnosti, atď.
+- Zobrazenie evolučného stromu (Distance tree results)
 ----
 
 
