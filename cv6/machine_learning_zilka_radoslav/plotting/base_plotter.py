@@ -19,7 +19,7 @@ class BasePlotter:
         plot_func(*args, **kwargs)
         self.__apply_plot_labels(general_kwargs)
         plt.tight_layout()
-        plt.show()
+        ##plt.show()
 
     def __apply_plot_labels(self, general_kwargs):
         """
