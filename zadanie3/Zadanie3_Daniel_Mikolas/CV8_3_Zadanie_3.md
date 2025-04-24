@@ -52,4 +52,4 @@ Na základe analýzy DNA medzi dcérou a dvoma bratmi podozrivého muža (strýk
 - Testovaný muž je **s extrémne vysokou pravdepodobnosťou biologickým otcom dcéry**.
 - Dcéra je geneticky príbuzná so strýkami, čo nepriamo potvrdzuje otcovstvo.
 
-➡️ Tieto výsledky predstavujú **veľmi silný dôkaz** v prospech biologického otcovstva testovaného muža.
+ Tieto výsledky predstavujú **veľmi silný dôkaz** v prospech biologického otcovstva testovaného muža.
