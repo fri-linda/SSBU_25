@@ -17,9 +17,9 @@ Normalizujte distribúciu datasetu (pre premenné aj vzorku).
 (Vyberte akúkoľvek kombináciu operácií, ktorá je podľa Vás najlepšia).
 
 **Ktoré operácie ste pri normalizácii použili?**
-Sample normalization: # TODO
-Data Transformation:  # TODO
-Data Scaling:         # TODO
+Sample normalization: Median normalization
+Data Transformation: Log transformation
+Data Scaling: Autoscaling
 ### Úloha 2 (4b)
 
 Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, correlations, PCA, PLS-DA, Dendrogram, Heatmap, K-means, RandomForest, ..) 
@@ -27,10 +27,15 @@ Použite ľubovoľné štatistické metódy na analýzu datasetu (napr. t-test, 
 **Uveďte aspoň 4 skutočnosti (z 4 rôznych metód), ktoré ste zistili analýzou datasetu:**
 
 (Napr. Pri použití pearsonovho korelačného koeficientu je najvyššia pozitívna korelácia medzi premennými x a y, a koeficient korelácie je 0.992.)
-1: # TODO
-2: # TODO
-3: # TODO
-4: # TODO
+
+1: PCA ukazuje, že vzorky zo skupiny 'severe kidney disease' sa čiastočne oddeľujú od kontrolných vzoriek pozdĺž hlavnej komponenty PC1, čo naznačuje rozdielne metabolické profily.
+
+2: PLS-DA identifikovalo premenné s najvyššou diskriminačnou silou, pričom najvýznamnejšími boli napríklad bins pri 3.20 ppm a 2.60 ppm s VIP > 1.8.
+
+3: T-test odhalil, že viacero premenných má signifikantne odlišné hodnoty medzi skupinami (napr. signál pri 1.20 ppm s p-hodnotou 0.001).
+
+4: Najvyššia pozitívna korelácia bola medzi binned signálmi pri 3.12 ppm a 3.16 ppm s korelačným koeficientom 0.975.
+
 
 Vygenerujte report z vykonanej analýzy a celý výsledný zip file odovzdajte ako prílohu k riešeniu zadania.
 
