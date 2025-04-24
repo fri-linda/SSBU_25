@@ -39,6 +39,7 @@
 # Skúmajte premennú pohlavie ('sex'). Premenná je kódovaná hodnotami 0 a 1. ( 0 = žena, 1 = muž)
 #%%
 # TODO
+
 #%% md
 # **Koľko záznamov mužov a žien obsahuje dataset?**
 #%% raw
