@@ -1,0 +1,24 @@
+2025-03-31 05:36:20,133 - INFO - Starting replication 1/20
+2025-03-31 05:36:49,172 - INFO - Starting replication 2/20
+2025-03-31 05:37:10,668 - INFO - Starting replication 3/20
+2025-03-31 05:37:31,470 - INFO - Starting replication 4/20
+2025-03-31 05:37:51,553 - INFO - Starting replication 5/20
+2025-03-31 05:38:11,129 - INFO - Starting replication 6/20
+2025-03-31 05:38:28,878 - INFO - Starting replication 7/20
+2025-03-31 05:38:47,988 - INFO - Starting replication 8/20
+2025-03-31 05:39:07,871 - INFO - Starting replication 9/20
+2025-03-31 05:39:25,843 - INFO - Starting replication 10/20
+2025-03-31 05:39:42,894 - INFO - Starting replication 11/20
+2025-03-31 05:40:01,211 - INFO - Starting replication 12/20
+2025-03-31 05:40:25,233 - INFO - Starting replication 13/20
+2025-03-31 05:40:43,764 - INFO - Starting replication 14/20
+2025-03-31 05:41:04,289 - INFO - Starting replication 15/20
+2025-03-31 05:41:23,956 - INFO - Starting replication 16/20
+2025-03-31 05:41:42,445 - INFO - Starting replication 17/20
+2025-03-31 05:42:03,129 - INFO - Starting replication 18/20
+2025-03-31 05:42:24,240 - INFO - Starting replication 19/20
+2025-03-31 05:42:41,701 - INFO - Starting replication 20/20
+2025-03-31 05:42:58,419 - INFO - Experiment completed successfully.
+2025-03-31 05:42:58,419 - INFO - Generating plots for the experiment results...
+2025-03-31 05:43:01,326 - INFO - Plots generated successfully.
+2025-03-31 05:43:01,327 - INFO - Application finished successfully.
