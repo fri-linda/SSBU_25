@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46f2d85b-3fda-4ae6-bbb2-5647987cd3e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/outputs/model_accuracies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/plotting/experiment_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV6_5_Zadanie_2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/CV6_5_Zadanie_2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_handling_refactored.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/data/data_handling_refactored.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment/experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/experiment/experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/models/model_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/models/model_trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/model_accuracies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting/base_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/plotting/base_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting/dataset_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/plotting/dataset_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plotting/experiment_plotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../machine_learning_golian_samuel/utils/logger.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Samuel-Golian&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Samuel-Golian/SSBU_25.git&quot;,
+    &quot;accountId&quot;: &quot;aa9d3875-402f-4323-a5c7-37296b9df0ca&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2utFAX45AngF1qC0dQESfE3aRMg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;zadanie__2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samue/PycharmProjects/SSBU_25/cv6/machine_learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\PycharmProjects\SSBU_25\cv6\machine_learning" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="machine_learning" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46f2d85b-3fda-4ae6-bbb2-5647987cd3e9" name="Changes" comment="" />
+      <created>1743059821799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743059821799</updated>
+      <workItem from="1743059823152" duration="4998000" />
+      <workItem from="1743360698770" duration="37000" />
+      <workItem from="1743868640374" duration="7958000" />
+      <workItem from="1744225226328" duration="7653000" />
+      <workItem from="1744233474376" duration="4985000" />
+      <workItem from="1744265195670" duration="272000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/machine_learning$main.coverage" NAME="main Coverage Results" MODIFIED="1744235457982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
